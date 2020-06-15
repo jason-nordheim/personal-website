@@ -1,22 +1,26 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import NavigationLink from './NavigationLink'
+
+const UL_STYLES = {
+    display: 'flex', 
+    flex: 'inline', 
+}
+
+const NAV_STYLES = {
+    display: 'flex', 
+    justifyContent: "center"
+}
 
 export default function Navigation() {
+
+
     return (
-        <nav>
-            <ul>
-                <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/about">About</Link>
-                </li>
-                <li>
-                    <Link to="/experience">Experience</Link>
-                </li>
-                <li>
-                    <Link to="/projects">Projects</Link>
-                </li>
+        <nav style={NAV_STYLES} >
+            <ul style={UL_STYLES} >
+                <NavigationLink {...{ relativeURL: '/', text: "Home"}}/>
+                <NavigationLink {...{ relativeURL: '/about', text: "About"}}/>
+                <NavigationLink {...{ relativeURL: '/experience', text: "Experience"}}/>
+                <NavigationLink {...{ relativeURL: '/projects', text: "Projects"}}/>
             </ul>
         </nav>
     )
