@@ -1,0 +1,41 @@
+{
+    "education": {
+        "college": [
+            { 
+                "university": "Rochester Instittute of Technology", 
+                "college": "Saunder's College of Business", 
+                "major": "Management Information Systems", 
+                "Minors": ["Web Development", "Digital Business"], 
+                "gpa":"3.49/4.00", 
+                "url": "https://www.rit.edu/study/management-information-systems-mis-bs", 
+                "start": {
+                    "day": null, 
+                    "month": null, 
+                    "year": null
+                }, 
+                "end": {
+                    "day": null, 
+                    "month": null, 
+                    "year": null
+                }
+            }
+        ],
+        "other": [
+            {
+                "name": "Flatiron School", 
+                "program": "Software Engineering", 
+                "url": "https://flatironschool.com/", 
+                "start": {
+                    "day": null, 
+                    "month": null, 
+                    "year": null
+                }, 
+                "end": {
+                    "day": null, 
+                    "month": null, 
+                    "year": null
+                }
+            }
+        ]
+    }
+}

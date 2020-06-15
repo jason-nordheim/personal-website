@@ -1,56 +1,4 @@
 {
-    "contact":{
-        "firstName": "Jason", 
-        "lastName": "Nordheim",
-        "address": {
-            "street": "2100 Welton Street #1317",
-            "city": "Denver", 
-            "state": "Colorado", 
-            "zip": "80205"
-        }, 
-        "phone":"3152547866",
-        "email": "jnordheim111@gmail.com"
-    },
-    "eductation": {
-        "college": [
-            { 
-                "university": "Rochester Instittute of Technology", 
-                "college": "Saunder's College of Business", 
-                "major": "Management Information Systems", 
-                "Minors": ["Web Development", "Digital Business"], 
-                "gpa":"3.49/4.00", 
-                "url": "https://www.rit.edu/study/management-information-systems-mis-bs", 
-                "start": {
-                    "day": null, 
-                    "month": null, 
-                    "year": null
-                }, 
-                "end": {
-                    "day": null, 
-                    "month": null, 
-                    "year": null
-                }
-            }
-        ],
-        "other": [
-            {
-                "name": "Flatiron School", 
-                "program": "Software Engineering", 
-                "url": "https://flatironschool.com/", 
-                "start": {
-                    "day": null, 
-                    "month": null, 
-                    "year": null
-                }, 
-                "end": {
-                    "day": null, 
-                    "month": null, 
-                    "year": null
-                }
-            }
-        ]
-        }
-    ], 
     "experience": [
         {
             "title": "Desktop Engineer I", 
@@ -88,7 +36,7 @@
             "company": "Rochester Precision Optics", 
             "type": "full-time", 
             "salaried": true, 
-            "url": null, 
+            "url": "rpoptics.com", 
             "address": {
                 "street": "850 John Street", 
                 "city": "West Henrietta", 
@@ -142,28 +90,6 @@
                 }, 
                 "email": ""
             }
-        }
-    ], 
-    "skills": [
-        { "name": "C#", "type": "programming", "startedUsing": "2017" }, 
-        { "name": "Ruby", "type": "programming", "startedUsing": "2020"}, 
-        { "name": "JavaScript", "type": "programming", "startedUsing": "2017"}, 
-        { "name": "Emotional Intelligence", "type": "non-technical" }, 
-        { "name": "Leadership", "type": "non-technical" }, 
-        { "name": "Teamwork", "type": "non-technical" }
-    ], 
-    "references": [
-        {
-            "name":"Lori Bobbo", 
-            "approved": false
-        },
-        {
-            "name": "Denise Sullivan", 
-            "approved": false 
-        }, 
-        {
-            "nane": "Paul Kinney", 
-            "approved": "false"
         }
     ]
 }
