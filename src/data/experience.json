@@ -12,7 +12,17 @@
                 "state": "New York", 
                 "zip": "14580"
             }, 
-            "description": null, 
+            "responsibilities": [
+                "Deploys and configuring moderately complex server operating systems and applications (Corporate and Third-Party) in physical, virtual, and containerized compute environments to corporate and vendor standards.",
+                "Provides moderately complex technical support during critical and non-critical business hours on server hardware, operating systems, and software. Is proactive and reactive for problem alerting, analysis, resolution, and follow up to ensure platform stability.",
+                "Performs moderately complex application and storage system upgrades (hardware/software) as well as periodic health checks in accordance with established corporate policies and procedures.", 
+                "Supports cross-functional project teams to help deliver solutions as required.", 
+                "Creates and maintains technical reference documentation to be used in support and training of Information Technology (IT) personnel.",
+                "Proactively identifies and automates the resolution to availability and performance failures throughout the environment.", 
+                "Proactively identifies work requests that can be downshifted to Operations staff or automated via software automation and orchestration tools. Ensures that all working knowledge sets are properly documented and communicated.", 
+                "Participates in the creation of corporate standards, best practices, and roadmaps for IT systems and technologies.",
+                "Participates in the creation of designs for corporate IT systems."
+            ],  
             "start": {
                 "day": 4, 
                 "month": 6, 
@@ -43,7 +53,14 @@
                 "state": "New York", 
                 "zip": "14586"
             }, 
-            "description": null,  
+            "responsibilities": [
+                "Identify data sources, develop integrated tools and assist with corporate Supply Chain KPIs/metrics analysis methodology", 
+                "Anticipate critical business questions and opportunities and deliver key insights to the business that make significant impacts", 
+                "Build analytic capabilities to grow organizations knowledge", 
+                "Develop in-depth business, analytical and systems knowledge to improve analytical solutions, approaches and business recommendations", 
+                "Collaborate with multi-functional teams (Commercials, Consumer Research, Finance, Accounting, Marketing, IT, Sales)",
+                "Perform detailed analysis and provide KPIs/metrics to Group leadership and executive Supply Chain stakeholders as needed"
+            ],  
             "start": {
                 "day": null, 
                 "month": null, 
