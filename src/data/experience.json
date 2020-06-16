@@ -62,22 +62,22 @@
                 "Perform detailed analysis and provide KPIs/metrics to Group leadership and executive Supply Chain stakeholders as needed"
             ],  
             "start": {
-                "day": null, 
-                "month": null, 
-                "year": null
+                "day": 1, 
+                "month": 1, 
+                "year": 2018
             },
             "end": {
-                "day": null, 
-                "month": null, 
-                "year": null
+                "day": 1, 
+                "month": 6, 
+                "year": 2018
             },
             "manager": {
-                "name": "", 
-                "title": "", 
+                "name": "Kelly Driscol", 
+                "title": "IT Manager", 
                 "phone": {
-                    "office": ""
+                    "office": "585-292-5450"
                 }, 
-                "email": ""
+                "email": "rschmitt@rpoptics.com"
             }
         },{
             "title": "", 
