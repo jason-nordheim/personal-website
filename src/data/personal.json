@@ -1,0 +1,39 @@
+{
+    "personal": {
+        "funFacts": [
+            ""
+        ], 
+        "bucketList": {
+            "fitness": [
+                {
+                    "goal": "run a mile in less than 6 minutes", 
+                    "achieved": true
+                },
+                {
+                    "goal": "run a 10k in less than 18 minutes", 
+                    "achieved": true
+                }, 
+                {
+                    "goal": "run a half marathon",
+                    "achieved": false
+                }, 
+                {
+                    "goal": "run a marathon", 
+                    "achieved": false 
+                }
+            ],
+            "travel": [
+                {
+                    "goal": "drive a german car on the autobon", 
+                    "achieved": false 
+                }
+            ], 
+            "programming": [
+                {
+                    "goal": "create a full-stack application", 
+                    "achieved": true 
+                }
+            ]
+        }
+    }
+}
