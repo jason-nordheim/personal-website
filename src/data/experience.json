@@ -5,7 +5,7 @@
             "company": "Paychex", 
             "type": "full-time", 
             "salaried": true, 
-            "url": null, 
+            "url": "https://www.paychex.com/", 
             "address": {
                 "street": "675 Basket Road", 
                 "city": "Webster", 
@@ -75,37 +75,85 @@
                 "name": "Kelly Driscol", 
                 "title": "IT Manager", 
                 "phone": {
-                    "office": "585-292-5450"
+                    "office": "5852925450"
                 }, 
                 "email": "rschmitt@rpoptics.com"
             }
-        },{
-            "title": "", 
-            "company": "", 
+        },
+        {
+            "title": "Apple Sales Associate", 
+            "company": "RIT Digital Den", 
+            "salaried": false, 
+            "type": "part-time", 
+            "url": "https://www.rit.edu/fa/digitalden/", 
             "address": {
-                "street": "", 
-                "city": "", 
-                "state": "", 
-                "zip": ""
+                "street": "48 Lomb Memorial Drive, Monroe Hall", 
+                "city": "Rochester", 
+                "state": "New York", 
+                "zip": "14623"
             }, 
-            "description": null, 
+            "responsibilities": [
+                "Process educational purchases by institution departments and faculty, staff and studens", 
+                "Inform, assist and respond to customer inquiries regarding Apple hardware and software.", 
+                "Complete the daily operational, day-to-day goals and priorities assigned by store management", 
+                "Uphold store merchandising and cleanliness standards", 
+                "Process special orders as required"
+            ], 
             "start": {
-                "day": null, 
-                "month": null, 
-                "year": null
+                "day": 23, 
+                "month": 5, 
+                "year": 2014
             },
             "end": {
-                "day": null, 
-                "month": null, 
-                "year": null
+                "day": 22, 
+                "month": 12, 
+                "year": 2018
             },
             "manager": {
-                "name": "", 
-                "title": "", 
+                "name": "Jonathan Millis", 
+                "title": "Digital Den Manager", 
+                "phone": {
+                    "office": "5854752505"
+                }, 
+                "email": "jjmedr@ntid.rit.edu"
+            }
+        }, 
+        {
+            "title": "IT Network Cost and Analytics Co-op", 
+            "company": "Paychex", 
+            "type": "co-op", 
+            "url": "https://www.paychex.com/", 
+            "salaried": false, 
+            "address": {
+                "street": "675 Basket Road", 
+                "city": "Webster", 
+                "state": "New York", 
+                "zip": "14580"
+            },  
+            "responsibilities": [
+                "Statistical analysis of various business services gathering usage information in order to find ways to reduce the cost, and facilitate business operations", 
+                "Act as Project Manager, utilizing SCRUM methodologies to accomplish organizational goals leveraging JIRA/Confluence to direct operations and report/analyze progress", 
+                "Network testing/troubleshooting to help support network services at Paychex corporate locations", 
+                "Planning, Implementation and Instructional use of VOIP phone system when transitioning from AVAYA systems to Cisco", 
+                "Creation of technical testing documentation for call-logging system"
+            ], 
+            "start": {
+                "day": 19, 
+                "month": 12, 
+                "year": 2016
+            },
+            "end": {
+                "day": 27, 
+                "month": 5, 
+                "year": 2017
+            },
+            "manager": {
+                "name": "Eddie Waldman", 
+                "title": "Manager of Network Cost and Analytics", 
                 "phone": {
                     "office": ""
                 }, 
-                "email": ""
+                "email": "ewaldman@paychex.com"
             }
         }
     ]
