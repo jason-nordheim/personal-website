@@ -1,22 +1,23 @@
 import React from 'react'
-import { Grid, Typography, Paper, makeStyles } from '@material-ui/core'
+import { Grid, Typography, Paper } from '@material-ui/core'
+import { data } from '../data/data'
+import { styles } from './styles/main'
 
-const styles = makeStyles({
-    root:{
-        margin: '10px'
-    }, 
-})
 
 export default function Home() {
     return (
-        <div className="home">
-            <Grid container spacing={3}>
-                <Grid className={styles.root} item xs={12}>
-                    <Paper>
-                        <Typography variant={"h1"}>Jason Nordheim</Typography>
+        <Grid item sm={12}>
+            <Grid container>
+                <Grid item sm={2}></Grid>
+                <Grid item sm={8}>
+                    <Paper style={styles.container}>
+                        <Typography variant={"h2"} >{data.contact.firstName} {data.contact.lastName}</Typography>
+                        <Typography variant={"body1"} >{data.home.subTitle}</Typography>
+                        
                     </Paper>
                 </Grid>
+                <Grid item sm={2}></Grid>
             </Grid>
-        </div>
+        </Grid>
     )
 }

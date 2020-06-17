@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Experience() {
+export default function Goals() {
     return (
         <div>
-            Experience
+            
         </div>
     )
 }
