@@ -4,7 +4,6 @@ import { Grid, Paper, List, ListItem, ListItemText, Typography } from '@material
 import { grid } from '../helpers'
 
 export default function Book({ book }) {
-    console.log(book)
     return (
         <Grid item xs={12}>
             <Paper variant="outlined">

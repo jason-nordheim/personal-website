@@ -1,6 +1,9 @@
 import { red, green } from "@material-ui/core/colors";
 
 export const styles = {
+    contactForm:{
+        padding: '20px, 20px'
+    },
     experience:{
         borderBottom: '1px solid gray', 
         padding: '10px',     

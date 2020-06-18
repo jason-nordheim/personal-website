@@ -11,7 +11,7 @@ import Goals from '../components/Goals'
 const SECTIONS = ["Education", "Experience", "Goals", "Interests"]
 
 export default function About() {
-    const [currentSection, setCurrentSection] = useState(3)
+    const [currentSection, setCurrentSection] = useState(0)
 
     const switchSection = event => {
         SECTIONS.forEach((section, index) => {
