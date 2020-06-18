@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Typography, Paper } from '@material-ui/core'
 import { data } from '../data/data'
-import { styles } from './styles/main'
+import { styles } from '../styles/main'
 
 
 export default function Home() {
