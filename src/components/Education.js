@@ -71,8 +71,6 @@ export default function Education() {
                                 <Grid item sm={12}>
                                     <Paper variant="outlined">
                                             <Typography variant="h3">Additional Education</Typography>
-                                    
-                                    
                                         {
                                             data.education.other.map(e => {
                                                 return (
