@@ -21,7 +21,7 @@ const grid = {
 
 export default function Experience() {
     return (
-        <Grid item sm={12} justify={"center"}>
+        <Grid item sm={12}>
             <Paper variant="elevation" elevation={3}>
                 <Grid styles={styles.container} container>
                     <Grid item sm={grid.sm.left} md={grid.md.left}></Grid>
