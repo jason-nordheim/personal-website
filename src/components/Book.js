@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Paper, List, ListItem, ListItemText, Typography } from '@material-ui/core'
 
-import { grid } from '../helpers'
+import { getTodoStatus, capitalize } from '../helpers'
 
 export default function Book({ book }) {
     return (
@@ -12,7 +12,7 @@ export default function Book({ book }) {
                         <List>
                             <ListItem>
                                 <ListItemText>
-                                    <Typography variant="body2">
+                                    <Typography color="primary" variant="body2">
                                         Title 
                                     </Typography>
                                 </ListItemText>
@@ -37,7 +37,7 @@ export default function Book({ book }) {
                         <List>
                             <ListItem>
                                 <ListItemText>
-                                    <Typography variant="body2">
+                                    <Typography color="primary" variant="overline">
                                         Author 
                                     </Typography>
                                 </ListItemText>
@@ -59,7 +59,7 @@ export default function Book({ book }) {
                         <List>
                             <ListItem>
                                 <ListItemText>
-                                    <Typography variant="body2">
+                                    <Typography color="primary" variant="overline">
                                         Category 
                                     </Typography>
                                 </ListItemText>
@@ -81,7 +81,7 @@ export default function Book({ book }) {
                         <List>
                             <ListItem>
                                 <ListItemText>
-                                    <Typography variant="body2">
+                                    <Typography color="primary" variant="overline">
                                         Sub-Category 
                                     </Typography>
                                 </ListItemText>
@@ -103,7 +103,7 @@ export default function Book({ book }) {
                         <List>
                             <ListItem>
                                 <ListItemText>
-                                    <Typography variant="body2">
+                                    <Typography color="primary" variant="overline">
                                         Summary 
                                     </Typography>
                                 </ListItemText>
@@ -117,7 +117,7 @@ export default function Book({ book }) {
                                     {
                                         book.summary.split('\n\n').map(p => {
                                             return (
-                                                <Typography variant="body2">
+                                                <Typography variant="body2" >
                                                     {p}
                                                 </Typography>
                                             )
@@ -132,7 +132,7 @@ export default function Book({ book }) {
                         <List>
                             <ListItem>
                                 <ListItemText>
-                                    <Typography variant="body2">
+                                    <Typography color="primary" variant="overline">
                                         Status 
                                     </Typography>
                                 </ListItemText>
@@ -143,8 +143,8 @@ export default function Book({ book }) {
                         <List>
                             <ListItem>
                                 <ListItemText>
-                                    <Typography variant="body2">
-                                        {book.status} 
+                                    <Typography style={getTodoStatus(book.status)} variant="body2">
+                                        {capitalize(book.status)} 
                                     </Typography>
                                 </ListItemText>
                             </ListItem>

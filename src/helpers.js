@@ -1,8 +1,10 @@
+import { styles } from './styles/main'
+
 export const grid = {
     xs: {
-        left: 0, 
+        left: 1, 
         center: 12, 
-        right: 0
+        right: 1
     }, 
     sm: {
         left: 1, 
@@ -28,4 +30,20 @@ export const months = [
 
 export const makeDateString = (dateHash) => {
     return `${months[dateHash.month + 1]} ${dateHash.day} , ${dateHash.year}`
+}
+
+export const capitalize = (s) => {
+    if (typeof s !== 'string') return ''
+    return s.charAt(0).toUpperCase() + s.slice(1)
+  }
+
+export const getTodoStatus = (status) => {
+    const style = status === "todo" 
+    ? styles.todo 
+    : status === "in-progress"
+        ? styles.inProgress
+        : status === "complete"
+            ? styles.complete
+            : null
+    return style 
 }

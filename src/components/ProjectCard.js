@@ -3,7 +3,7 @@ import { Card, CardContent, Typography } from '@material-ui/core'
 
 export default function ProjectCard() {
     return (
-        <Card>
+        <Card variant="elevation" elevation={2}>
             <CardContent>
                 <Typography color="textSecondary" gutterBottom>
                     This is a test 

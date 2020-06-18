@@ -1,6 +1,20 @@
 import { red, green } from "@material-ui/core/colors";
 
 export const styles = {
+    complete: {
+        color: 'green'
+    }, 
+    inProgress:{
+        color: '#CCCC00'
+    }, 
+    todo:{
+        color: 'red'
+    }, 
+    projectCardContainer:{
+        flexFlow: 'row wrap', 
+        flexGrow: 1, 
+        alignItems: 'stretch'
+    },
     contactForm:{
         padding: '20px, 20px'
     },

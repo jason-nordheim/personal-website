@@ -4,7 +4,7 @@ export const data = {
         title: "Snake", 
         category: "games", 
         technologies: ['JavaScript', "HTML", "CSS", "CSS Grid"], 
-        url: "https://github.com/jason-nordheim/pure-js-snake-wds" 
+        url: "https://github.com/jason-nordheim/pure-js-snake-wds", 
       }, 
       {
         title: "Tetris", 
@@ -41,6 +41,7 @@ export const data = {
       college: [
         {
           university: 'Rochester Instittute of Technology',
+          img: "https://www.rit.edu/marketing/brandportal/images/717/toolkits/logo/RIT_seal.jpg", 
           college: 'Saunder\'s College of Business',
           major: 'Management Information Systems',
           minors: [
@@ -65,6 +66,7 @@ export const data = {
         {
           name: 'Flatiron School',
           program: 'Software Engineering',
+          img: "https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco/v1397752768/e4ce735bc7e299313e5ca95eaf86a030.png", 
           url: 'https://flatironschool.com/',
           start: {
             day: 30,
@@ -376,11 +378,11 @@ export const data = {
         fitness: [
           {
             goal: 'run a mile in less than 6 minutes',
-            status: 'completed'
+            status: 'complete'
           },
           {
             goal: 'run a 10k in less than 18 minutes',
-            status: 'completed'
+            status: 'complete'
           },
           {
             goal: 'run a half marathon',
@@ -389,20 +391,32 @@ export const data = {
           {
             goal: 'run a marathon',
             status: 'todo'
+          }, 
+          {
+            goal: "Complete 10 Pullups without stopping or cheating", 
+            status: "complete"
+          }, 
+          {
+            goal: "Compete in a triathalon", 
+            status: "todo"
           }
         ],
-        experiences: [
+        travel: [
           {
             goal: 'drive a german car on the autobon, in Germany',
             status: 'todo'
           },
           {
-            goal: 'tour La Sagrada Familia',
+            goal: 'tour La Sagrada Familia (Barcelona)',
             status: 'todo'
           },
           {
             goal: 'tour la Vatican',
             status: 'todo'
+          },
+          {
+            goal: 'tour the collesium in Italy', 
+            status: "todo"
           },
           {
             goal: 'hike Yosemite',
@@ -411,30 +425,102 @@ export const data = {
           {
             goal: 'go on a cross-country road-trip',
             status: 'todo'
-          }
-        ],
-        travel: [
+          },
           {
-            goal: '',
-            status: false
+            goal: 'Visit Spain',
+            status: 'complete'
+          }, 
+          {
+            goal: 'See the Great Pyramids', 
+            status: "todo"
+          }, 
+          {
+            goal: "Go to the top of the Empire State Building", 
+            status: "complete"
+          }, 
+          {
+            goal: "Go to the Colorado Sand Dunes", 
+            status: "todo"
+          }, 
+          {
+            goal: "Go camping in Yosemite", 
+            status: "todo"
+          }, 
+          {
+            goal: "Go on a Carribean Cruise", 
+            status: "complete"
+          },
+          {
+            goal: "Go on a Mediteranean Cruise", 
+            status: "complete"
           }
         ],
         education: [
           {
             goal: 'graduate from college',
-            status: 'completed'
+            status: 'complete'
+          }, 
+          {
+            goal: "Complete Flatiron Bootcamp", 
+            status: "in-progress"
           }
         ],
         programming: [
           {
             goal: 'create a full-stack application',
-            status: 'completed'
+            status: 'complete'
           },
+          {
+            goal: 'Build tetris from scratch', 
+            status: "complete"
+          }, 
           {
             goal: 'contribute to an open-source project',
             status: 'todo'
+          },
+          {
+            goal: "Create a Flask API (Python)", 
+            status: "in-progress"
+          },
+          {
+            goal: "Create a (Ruby on) Rails API",
+            status: "complete"
+          },
+          {
+            goal:"Create a Node/Express API",
+            status: "complete" 
+          }, 
+          {
+            goal: "Use Node, Express, JWT and bcrypt to build an API that has token based authentication", 
+            status: "complete"
+          },
+          {
+            goal: "Build a React front-end using Material UI", 
+            status: "complete"
           }
-        ]
+        ],
+        experiences: [
+          {
+            goal: "go on a mission trip to a 3rd world country", 
+            status: "complete"
+          },
+          {
+            goal: "Join an adult recreation soccer league", 
+            status: "complete"
+          }, 
+          {
+            goal: "go mountain biking",
+            status: "todo"
+          }, 
+          {
+            goal: "get a professional massage", 
+            status: "todo"
+          }, 
+          {
+            goal: "Attend pride in a major city", 
+            status: "todo"
+          }, 
+        ],
       }
     },
     references: [

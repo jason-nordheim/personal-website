@@ -12,7 +12,7 @@ export default function ExperienceCard({ experience }) {
 
     return (
         <Paper key={experience.title} variant="elevation" style={styles.experience} elevation={2}>
-            <Grid container>
+            <Grid container spacing={1}>
                 <Grid item xs={12}>
                     <Paper variant="outlined">
                         <Grid container> 

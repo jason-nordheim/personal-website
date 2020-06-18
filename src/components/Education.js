@@ -1,5 +1,5 @@
 import React from 'react'
-import { Grid, Paper, Typography } from '@material-ui/core'
+import { Grid, Paper, Typography, CardMedia, Card } from '@material-ui/core'
 import { styles } from '../styles/main'
 import { data } from '../data/data'
 
@@ -37,7 +37,9 @@ function College() {
                                 <Grid item sm={12} md={8}>
                                     <Typography variant={"subtitle1"}>{college.university}</Typography>
                                     <Typography variant={"subtitle2"}>{college.college}</Typography>
+                                    <img src={college.img} alt="logo" height="100px" />
                                 </Grid>
+                                
                                 <Grid container>
                                     <Grid item sm={6}>
                                         <Typography style={styles.stat} variant={"body2"}>Major:</Typography>
@@ -114,7 +116,8 @@ function AdditionalEducation(){
                                     item 
                                     sm={12}>
                                 <Typography variant={"subtitle1"}>{e.name}</Typography>
-                                <Typography variant={"subtitle2"}>{e.program}</Typography>
+                                <Typography variant={"subtitle2"}>Program: {e.program}</Typography>
+                                <img src={e.img} alt="logo" height="100px" />
                             </Grid>
                         )
                     })

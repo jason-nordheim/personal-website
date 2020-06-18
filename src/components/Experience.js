@@ -23,13 +23,13 @@ export default function Experience() {
     return (
         <Grid item sm={12}>
             <Paper variant="elevation" elevation={3}>
-                <Grid styles={styles.container} container>
+                <Grid styles={styles.container} container justify="center">
                     <Grid item sm={grid.sm.left} md={grid.md.left}></Grid>
                     <Grid styles={styles.container} item sm={grid.sm.center} md={grid.md.center}>
                         <Grid container> 
                             <Grid item sm={grid.sm.center} md={grid.md.center} styles={{alignContent: 'center'}}>  
                                 <Paper square styles={styles.container}>
-                                    <Grid container justify="center" >
+                                    <Grid container justify="center" spacing={3}>
                                         <Grid item sm={3}></Grid>
                                         <Grid item sm={6} >
                                             <Typography variant={"h2"}>Experience</Typography>
