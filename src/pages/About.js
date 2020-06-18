@@ -11,7 +11,7 @@ import Goals from '../components/Goals'
 const SECTIONS = ["Education", "Experience", "Goals", "Interests"]
 
 export default function About() {
-    const [currentSection, setCurrentSection] = useState(1)
+    const [currentSection, setCurrentSection] = useState(0)
 
     const switchSection = event => {
         SECTIONS.forEach((section, index) => {
@@ -40,20 +40,23 @@ export default function About() {
                         </Tabs>
                     </Paper>
                 </Grid>
-            </Grid>
-            <Grid className={styles.main} container>
-                { 
-                currentSection === 0 
-                    ? <Education /> 
-                    : currentSection === 1 
-                    ? <Experience /> 
-                    : currentSection === 2 
-                        ? <Goals /> 
-                        : currentSection === 3 
-                        ? <Interests /> 
-                        : <Education /> 
-                }
+                <Grid item sm={12}>
+                    <Paper variant={""}>
+                        { 
+                        currentSection === 0 
+                            ? <Education /> 
+                            : currentSection === 1 
+                            ? <Experience /> 
+                            : currentSection === 2 
+                                ? <Goals /> 
+                                : currentSection === 3 
+                                ? <Interests /> 
+                                : <Education /> 
+                        }
+                    </Paper>
+                </Grid>
             </Grid>
         </Grid>
+           
     )
 }

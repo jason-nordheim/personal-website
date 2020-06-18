@@ -1,7 +1,14 @@
 import { red, green } from "@material-ui/core/colors";
-import { hslToRgb } from "@material-ui/core";
 
 export const styles = {
+    experience:{
+        borderBottom: '1px solid gray', 
+        padding: '10px',     
+        marginBottom: '20px', 
+    }, 
+    header:{
+        margin: '50px',
+    }, 
     main: {
         backgroundColor: '#757de8', 
         color: 'green'

@@ -16,7 +16,7 @@ const PAGES = ["Home", "About", "Projects", "Contact"]
 
 
 const App = () => {
-  const [currentPage, setCurrentPage] = useState(1)
+  const [currentPage, setCurrentPage] = useState(0)
 
   const switchPage = event => {
     const text = event.target.innerText 
@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <Router>
-    <header>
+    <header styles={styles.header}>
       <Paper style={styles.nav} square elevation={2} >
         <Grid container >
           <Grid item sm={12}>
@@ -50,8 +50,8 @@ const App = () => {
         </Grid>
       </Paper>
     </header>
-    <main>
-      <Grid className={styles.main} container>
+    <main styles={styles.main}>
+      <Grid container>
         { 
           currentPage === 0 
             ? <Home /> 

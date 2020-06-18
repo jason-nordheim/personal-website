@@ -53,9 +53,9 @@ export const data = {
           program: 'Software Engineering',
           url: 'https://flatironschool.com/',
           start: {
-            day: null,
-            month: null,
-            year: null
+            day: 30,
+            month: 3,
+            year: 2020
           },
           end: {
             day: null,
