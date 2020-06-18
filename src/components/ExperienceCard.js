@@ -11,7 +11,7 @@ export default function ExperienceCard({ experience }) {
     const endDate = makeDateString(experience.end)
 
     return (
-        <Paper variant="elevation" style={styles.experience} elevation={2}>
+        <Paper key={experience.title} variant="elevation" style={styles.experience} elevation={2}>
             <Grid container>
                 <Grid item xs={12}>
                     <Paper variant="outlined">
