@@ -47,3 +47,8 @@ export const getTodoStatus = (status) => {
             : null
     return style 
 }
+
+
+export const goToUrl = (url) => {
+    window.location.href = url 
+}

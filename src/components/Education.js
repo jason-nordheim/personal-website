@@ -1,7 +1,8 @@
 import React from 'react'
-import { Grid, Paper, Typography, CardMedia, Card } from '@material-ui/core'
+import { Grid, Paper, Typography } from '@material-ui/core'
 import { styles } from '../styles/main'
 import { data } from '../data/data'
+import { goToUrl } from '../helpers'
 
 export default function Education() {
     return (
@@ -34,10 +35,10 @@ function College() {
                                     key={college.university.length}  
                                     item 
                                     sm={12}>
-                                <Grid item sm={12} md={8}>
+                                <Grid item sm={12} md={12}>
                                     <Typography variant={"subtitle1"}>{college.university}</Typography>
                                     <Typography variant={"subtitle2"}>{college.college}</Typography>
-                                    <img src={college.img} alt="logo" height="100px" />
+                                    <img src={college.img} alt="logo" height="100px" onClick={e=> goToUrl(college.url)}/>
                                 </Grid>
                                 
                                 <Grid container>
@@ -117,7 +118,7 @@ function AdditionalEducation(){
                                     sm={12}>
                                 <Typography variant={"subtitle1"}>{e.name}</Typography>
                                 <Typography variant={"subtitle2"}>Program: {e.program}</Typography>
-                                <img src={e.img} alt="logo" height="100px" />
+                                <img src={e.img} alt="logo" height="100px" onClick={event=> goToUrl(e.url)} />
                             </Grid>
                         )
                     })

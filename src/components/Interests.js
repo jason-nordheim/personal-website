@@ -3,7 +3,7 @@ import { Grid, Paper, Typography  } from '@material-ui/core'
 
 import { data } from '../data/data'
 import { styles } from '../styles/main'
-import { grid, item } from '../helpers'
+import { grid } from '../helpers'
 import Book from './Book'
 
 export default function Interests() {

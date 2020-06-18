@@ -1,7 +1,5 @@
 import React, { useState } from 'react'
-import { Grid, Typography, Paper, Tabs, Tab } from '@material-ui/core'
-import { data } from '../data/data'
-import { styles } from '../styles/main'
+import { Grid, Paper, Tabs, Tab } from '@material-ui/core'
 
 import Education from '../components/Education'
 import Experience from '../components/Experience'
@@ -11,7 +9,7 @@ import Goals from '../components/Goals'
 const SECTIONS = ["Education", "Experience", "Goals", "Interests"]
 
 export default function About() {
-    const [currentSection, setCurrentSection] = useState(2)
+    const [currentSection, setCurrentSection] = useState(0)
 
     const switchSection = event => {
         SECTIONS.forEach((section, index) => {
