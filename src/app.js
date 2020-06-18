@@ -15,7 +15,7 @@ const PAGES = ["Home", "About", "Projects", "Contact"]
 
 
 const App = () => {
-  const [currentPage, setCurrentPage] = useState(1)
+  const [currentPage, setCurrentPage] = useState(0)
 
   const switchPage = event => {
     const text = event.target.innerText 

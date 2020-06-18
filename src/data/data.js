@@ -497,6 +497,10 @@ export const data = {
           {
             goal: "Build a React front-end using Material UI", 
             status: "complete"
+          },
+          {
+            goal: "Build a React website leveraging the Bootstrap React framework",
+            status: "todo"
           }
         ],
         experiences: [
@@ -520,6 +524,10 @@ export const data = {
             goal: "Attend pride in a major city", 
             status: "todo"
           }, 
+          {
+            goal: "Bathe in a hot spring", 
+            status: "todo"
+          }
         ],
       }
     },
