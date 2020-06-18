@@ -22,30 +22,32 @@ const grid = {
 export default function Experience() {
     return (
         <Grid item sm={12} justify={"center"}>
-            <Grid styles={styles.container} container>
-                <Grid item sm={grid.sm.left} md={grid.md.left}></Grid>
-                <Grid styles={styles.container} item sm={grid.sm.center} md={grid.md.center}>
-                    <Grid container> 
-                        <Grid item sm={grid.sm.center} md={grid.md.center} styles={{alignContent: 'center'}}>  
-                            <Paper square styles={styles.container}>
-                                <Grid container justify="center" >
-                                    <Grid item sm={3}></Grid>
-                                    <Grid item sm={6} >
-                                        <Typography variant={"h2"}>Experience</Typography>
-                                    </Grid>
-                                    <Grid item sm={3}></Grid>
+            <Paper variant="elevation" elevation={3}>
+                <Grid styles={styles.container} container>
+                    <Grid item sm={grid.sm.left} md={grid.md.left}></Grid>
+                    <Grid styles={styles.container} item sm={grid.sm.center} md={grid.md.center}>
+                        <Grid container> 
+                            <Grid item sm={grid.sm.center} md={grid.md.center} styles={{alignContent: 'center'}}>  
+                                <Paper square styles={styles.container}>
+                                    <Grid container justify="center" >
+                                        <Grid item sm={3}></Grid>
+                                        <Grid item sm={6} >
+                                            <Typography variant={"h2"}>Experience</Typography>
+                                        </Grid>
+                                        <Grid item sm={3}></Grid>
 
 
-                                    <Grid item sm={12}>
-                                        { data.experience.map(e => <ExperienceCard experience={e} /> ) }
+                                        <Grid item sm={12}>
+                                            { data.experience.map(e => <ExperienceCard experience={e} /> ) }
+                                        </Grid>
                                     </Grid>
-                                </Grid>
-                            </Paper>
+                                </Paper>
+                            </Grid>
                         </Grid>
                     </Grid>
+                    <Grid item sm={1} md={2}></Grid>
                 </Grid>
-                <Grid item sm={1} md={2}></Grid>
-            </Grid>
+            </Paper>
         </Grid>
     )
 }
