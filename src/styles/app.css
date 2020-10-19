@@ -5,6 +5,18 @@
 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab&display=swap');
 
+:root {
+	--purple: #9156DB; 
+
+	--blue-light: #09BADE; 
+	--blue-medium: #028DF5; 
+	--blue-cobalt: #024AEB; 
+
+	--black: #030B13; 
+	--gray: #A3B5AC; 
+}
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -52,9 +64,28 @@ table {
     box-sizing: border-box;
 }
 
-/* Actual Styling */
+
+
+
+
+
+
+/**** Actual Styling ****/
+
+
+/* General Styling */ 
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+	position: absolute;
+	font-family: 'Roboto Condensed', sans-serif;
+	height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+a {
+	color: var(--blue-cobalt);
+}
+a:hover {
+	color: var(--blue-medium)
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Slab', serif;
@@ -62,3 +93,54 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
     font-size: 3rem;
 }
+
+
+
+/* Navigation bar */
+header {
+	position: sticky;
+	height: 100%;
+	left: 0;
+	width: 20%;
+	display: flex;
+	flex-direction: column;
+	background-color:var(--black);
+}
+header div.social {
+	display: flex; 
+	flex-direction: row;
+	justify-content: space-around;
+	min-width: 2rem;
+	min-height: 2rem;
+	padding: 0 1rem;
+}
+header div.social span a {
+	display: flex; 
+	color: var(--gray);
+	text-decoration: none;
+	flex: 1;
+}
+header div.social span a i {
+	display: flex;
+	flex: 1;
+}
+header div.avatar {
+	display: flex; 
+	max-width: 100%;
+	justify-content: center;
+}
+header div.avatar img {
+	position: relative;
+	display: flex;
+	max-width: 80%;
+	border-radius: 7rem;
+	margin: 1rem;
+}
+header nav ul li a {
+	text-decoration: none;
+	color: var(--gray);
+	font-size: 1.2rem;
+	width: 100%;
+	text-align: center;
+}
+
