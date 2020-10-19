@@ -3,7 +3,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.c@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');om/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab&display=swap');
 
 :root {
 	--purple: #9156DB; 
@@ -76,7 +76,7 @@ table {
 /* General Styling */ 
 body {
 	position: absolute;
-	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	height: 100vh;
 	padding: 0;
 	margin: 0;
