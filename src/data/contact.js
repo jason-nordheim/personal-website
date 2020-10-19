@@ -11,4 +11,5 @@ export const contact = {
   email: "jason.nordheim@gmail.com",
   linkedIn: "https://www.linkedin.com/in/jasonnordheim/",
   github: "https://github.com/jason-nordheim/",
+  blog: "https://dev.to/jasonnordheim",
 };
