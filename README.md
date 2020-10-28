@@ -2,4 +2,4 @@
 
 # Contributions 
 
-- [Animated Letters](https://github.com/juliangarnier/anime)
+- [Julian Garnier - Letter Animations](https://github.com/juliangarnier/anime)
