@@ -5,11 +5,14 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import { Route, Switch, useLocation } from "react-router-dom";
+import './App.css'
+import NavBar from "./NavBar"
 
 const App = () => {
   let location = useLocation();
   return (
     <div className="app">
+      <NavBar /> 
       <Switch location={location}>
         <Route path="/about" component={About} />
         <Route path="/contact" component={Contact} />
