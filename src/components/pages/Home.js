@@ -1,6 +1,8 @@
 import React from "react";
 import Typewriter from 'typewriter-effect'
 
+import './Pages.css'
+
 export const Home = () => {
     const descriptors = ["Creator", "Software Engineer", "Web Developer", "Coder", "Problem-solver", "Geek"]
     const speed = 35 
