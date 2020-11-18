@@ -33,8 +33,12 @@
   border: 1px solid white;
   font-stretch: extra-condensed;
   font-size: var(--desktop-font-size);
+  transition: all 0.2s ease-in-out;
 }
-
+.navbar-logo:hover {
+  border: 1px solid #1888ff; 
+  color: #1888ff;
+}
 .navbar-menu {
   display: flex;
   list-style: none;
@@ -59,18 +63,29 @@
   width: 100%;
   font-size: 1.1rem;
 }
-.navbar-links > i {
-  display: none;
-}
-.navbar-links > span {
+/* typewriter link */
+.navbar-links > * {
   display: flex;
-  margin: auto;
+  text-align: left;
+  align-items: center;
+  justify-items: start;
+  min-width: fit-content;
   font-size: 0.7rem;
 }
-
+.navbar-links > div {
+  margin-right: auto;
+}
+.navbar-links > i {
+  min-width: unset;
+  justify-self: end;
+  margin-right: 10px;
+}
 .navbar-links:hover {
   color: #1888ff;
   transition: all 0.2s ease-in-out;
+}
+.navbar-links:hover > div {
+  text-decoration: underline;
 }
 
 .navbar-links-mobile {
