@@ -1,11 +1,5 @@
-import React from 'react'
-import ProjectCard from '../components/cards/ProjectCard'
+import React from 'react'; 
 
-export default function Projects() {
-    return (
-        <div className="projects">
-            <h1>Projects</h1>
-            <ProjectCard /> 
-        </div>
-    )
-}
+export const Projects = () => <div className="about">About</div>
+
+export default Projects; 
