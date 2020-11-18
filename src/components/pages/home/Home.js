@@ -1,17 +1,17 @@
 import React from "react";
 import Typewriter from 'typewriter-effect'
+import { typewriterSpeed } from "../../../data/app"
 
-import './Pages.css'
+import '../pageStyles.css'
 
 export const Home = () => {
     const descriptors = ["Creator", "Software Engineer", "Web Developer", "Coder", "Problem-solver", "Geek"]
-    const speed = 35 
   return (
     <div className="page home">
       <Typewriter className="cta" options={{
             strings: descriptors, 
-            delay: speed, 
-            deleteSpeed: speed, 
+            delay: typewriterSpeed, 
+            deleteSpeed: typewriterSpeed, 
             autoStart: true, 
             loop: true, 
         }} />
