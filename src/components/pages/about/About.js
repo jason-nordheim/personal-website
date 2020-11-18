@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-import './Pages.css'
+import '../pageStyles.css'
 
 export const About = () => <div className="page about">About</div>
 

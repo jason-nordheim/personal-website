@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import Contact from "./pages/Contact";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Projects from "./pages/projects/Projects";
+import Contact from "./pages/contact/Contact";
 import { Route, Switch, useLocation } from "react-router-dom";
 import './App.css'
 import NavBar from "./NavBar"

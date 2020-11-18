@@ -1,53 +1,80 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect"
+import { typewriterSpeed } from "../data/app"
 
 import "./NavBar.css";
 
 export const NavBar = () => {
-  const [click, setClick] = useState(false);
+  const [open, setOpen] = useState(false);
+  const typeSpeed = typewriterSpeed + 30;
 
-  const handleClick = () => {
-    setClick(!click);
+  const handleOpen = () => {
+    setOpen(!open);
   };
 
-  const closeMobileMenu = () => {
-    setClick(false);
+  const closeMenu = () => {
+    setOpen(false);
   };
 
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <div className="navbar-menu-icon" onClick={handleClick}>
-          <i className={click ? "fas fa-times" : "fas fa-bars"} />
+        <div className="navbar-menu-icon" onClick={handleOpen}>
+          <i className={open ? "fas fa-times" : "fas fa-bars"} />
         </div>
         <Link to="/" className="navbar-logo">
-          JN
+           JN
         </Link>
       </div>
       <div className="navbar-right">
-        <ul className={click ? "navbar-menu active" : "navbar-menu"}>
+        <ul className={open ? "navbar-menu active" : "navbar-menu"}>
           <li className="navbar-items">
-            <Link to="/" className="navbar-links" onClick={closeMobileMenu}>
+            <Link to="/" className="navbar-links" onClick={closeMenu}>
               <i className="fas fa-home" />
-              <span>Home</span>
+              <Typewriter options={{
+                strings:"home",
+                delay: typeSpeed, 
+                cursor: '', 
+                autoStart: true,
+                loop: false
+            }}  /> 
             </Link>
           </li>
           <li className="navbar-items">
-            <Link to="/about" className="navbar-links" onClick={closeMobileMenu}>
+            <Link to="/about" className="navbar-links" onClick={closeMenu}>
               <i className="fas fa-child" />
-              <span>About</span>
+              <Typewriter options={{
+                strings:"about",
+                delay: typeSpeed, 
+                cursor: '', 
+                autoStart: true,
+                loop: false
+            }}  /> 
             </Link>
           </li>
           <li className="navbar-items">
-            <Link to="/projects" className="navbar-links" onClick={closeMobileMenu}>
+            <Link to="/projects" className="navbar-links" onClick={closeMenu}>
               <i className="fas fa-briefcase" />
-              <span>Projects</span>
+              <Typewriter options={{
+                strings:"projects",
+                delay: typeSpeed, 
+                cursor: '', 
+                autoStart: true,
+                loop: false
+            }}  /> 
             </Link>
           </li>
           <li className="navbar-items">
-            <Link to="/contact" className="navbar-links" onClick={closeMobileMenu}>
+            <Link to="/contact" className="navbar-links" onClick={closeMenu}>
               <i className="fas fa-address-book" />
-              <span>Contact</span>
+              <Typewriter options={{
+                strings:"contact",
+                delay: typeSpeed, 
+                cursor: '', 
+                autoStart: true,
+                loop: false
+            }}  /> 
             </Link>
           </li>
         </ul>
