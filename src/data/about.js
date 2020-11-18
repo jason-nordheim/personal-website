@@ -9,8 +9,15 @@ export const contact = {
   },
   phone: "3152547866",
   email: "jason.nordheim@gmail.com",
-  blog: 'https://dev.to/jasonnordheim', 
+  blog: "https://dev.to/jasonnordheim",
   linkedIn: "https://www.linkedin.com/in/jasonnordheim/",
   github: "https://github.com/jason-nordheim/",
-  bio: ""
+  bio: "",
 };
+
+export const intros = [
+  "software engineer",
+  "self-starter",
+  "developer",
+  "techie",
+];
