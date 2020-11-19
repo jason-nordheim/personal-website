@@ -49,6 +49,7 @@ table {
 	border-spacing: 0;
 }
 html {
+    background-color: rgba(24, 136, 255, 0.8);
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;

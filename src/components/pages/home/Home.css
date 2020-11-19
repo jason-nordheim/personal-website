@@ -1,0 +1,16 @@
+.home {
+}
+.home .Typewriter {
+    width: 250px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    display: block; 
+    margin: auto;
+    margin-bottom: 60%;
+}
+
+.Typewriter__cursor {
+    color: #0065d1;
+}
