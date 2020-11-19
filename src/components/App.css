@@ -88,8 +88,9 @@ p {
   align-items: baseline;
   margin: 1.5rem auto;
   padding: 1.5rem 1rem;
-  background-color: rgba(240, 255, 255, 0.221);
+  background-color: rgba(240, 255, 255, 0.4);
   border-radius: 10px;
+  z-index: 0;
 }
 
 
@@ -100,19 +101,19 @@ p {
   height: 100%;
   width: 100%;
 }
-.home .cta, .home .cta-wrapper, .home .Typewriter, .home .Typewriter__cursor, .home .Typewriter .Typewriter__wrapper, .home .blink, .home span {
+.home .hero, .home .hero-wrapper, .home .Typewriter, .home .Typewriter__cursor, .home .Typewriter .Typewriter__wrapper, .home .blink, .home span {
   font-family: 'Cutive Mono', monospace;
   transition: all 0.2s ease-in-out;
   font-weight: var(--desktop-font-weight);
-  font-stretch: condensed;
+  font-stretch: ultra-condensed;
   z-index: 0;
 }
-.home .cta-wrapper {
+.home .hero-wrapper {
   display: flex; 
   width: 100%;
   place-content: center;
 }
-.home .cta {
+.home .hero {
   background-color: rgba(0, 0, 0, 0.803);
   color: #bfdcff;
   padding: 1rem 1rem;
@@ -133,6 +134,7 @@ p {
   font-stretch: ultra-condensed;
 }
 .home .blink {
+  font-weight: 800;
   color: #03ee3eda; 
   animation-play-state: running;
   animation: flash;
@@ -142,9 +144,6 @@ p {
 }
 
 /* Navbar */
-.page {
-  z-index: 0;
-}
 .navbar div, .navbar span, .navbar p, .navbar-items, .navbar-logo {
   font-family: "Fira Code", monospace;
   z-index: 1;
@@ -246,7 +245,7 @@ p {
 }
 
 @media screen and (max-width: 550px) {
-  .home .cta, .home .cta-wrapper, .home .Typewriter, .home .Typewriter__cursor, .home .Typewriter .Typewriter__wrapper, .home .blink, .home span {
+  .home .hero, .home .cta-wrapper, .home .Typewriter, .home .Typewriter__cursor, .home .Typewriter .Typewriter__wrapper, .home .blink, .home span {
       font-weight: 400;
       font-size: calc(var(--desktop-font-size) * 0.8);
       font-stretch: ultra-condensed;

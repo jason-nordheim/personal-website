@@ -6,11 +6,11 @@ import { intros } from '../../../data/about'
 export const Hero = () => {
     const descriptors = intros.map(x => x.typewriter)
     return (
-        <div className="cta-wrapper">
-        <div className="cta no-select">
+        <div className="hero-wrapper">
+        <div className="hero no-select">
         <span className="blink">{">"}</span>
         <span>I am </span>
-        <Typewriter className="cta" options={{
+        <Typewriter className="hero" options={{
               strings: descriptors, 
               delay: typewriterSpeed, 
               cursor: '▎', 
