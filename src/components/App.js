@@ -1,12 +1,18 @@
 import React from "react";
+import { Route, Switch, useLocation } from "react-router-dom";
 
+// custom components 
+import NavBar from "./NavBar"
+
+// page components 
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Projects from "./pages/projects/Projects";
 import Contact from "./pages/contact/Contact";
-import { Route, Switch, useLocation } from "react-router-dom";
+
+// css 
+import './MeyersReset.css'
 import './App.css'
-import NavBar from "./NavBar"
 
 const App = () => {
   let location = useLocation();
