@@ -1,35 +1,19 @@
 import React from "react";
-import Typewriter from 'typewriter-effect'
-import { typewriterSpeed } from "../../../data/app"
-import { intros } from '../../../data/about'
+import { Hero } from './Hero'
 
-import '../pageStyles.css'
-import './Home.css'
 
 export const Home = () => {
-  const descriptors = intros.map(x => x.typewriter)
   return (
     <div className="home">
       <section>
-        <h1>Hello there!</h1>
+        <h1>Hello and Welcome!</h1>
         <p>
           Please allow me to introduce myself... 
         </p>
       </section>
-      <div className="cta-wrapper">
-        <div className="cta no-select">
-        <span className="blink">></span>
-        <span>I am </span>
-        <Typewriter className="cta" options={{
-              strings: descriptors, 
-              delay: typewriterSpeed, 
-              cursor: '▎', 
-              deleteSpeed: typewriterSpeed, 
-              autoStart: true, 
-              loop: true, 
-          }} />
-        </div>
-      </div>
+      <section>
+        <Hero /> 
+      </section>
     </div>
   );
 };

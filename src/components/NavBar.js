@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 import { typewriterSpeed } from "../data/app";
 
-import "./NavBar.css";
 
 export const NavBar = () => {
   const [open, setOpen] = useState(false);
