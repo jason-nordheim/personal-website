@@ -16,7 +16,6 @@
 .home {
     height: 100%;
     width: 100%;
-    padding: 0 1rem;
 }
 .home .cta, .home .cta-wrapper, .home .Typewriter, .home .Typewriter__cursor, .home .Typewriter .Typewriter__wrapper, .home .blink, .home span {
     font-family: 'Cutive Mono', monospace;
