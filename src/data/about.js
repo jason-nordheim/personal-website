@@ -16,8 +16,10 @@ export const contact = {
 };
 
 export const intros = [
-  "software engineer",
-  "self-starter",
-  "developer",
-  "techie",
+  { typewriter: "a software engineer 👨‍💻 " },
+  { typewriter: "a developer 💻 "},
+  { typewriter: "an innovator 💥 "},
+  { typewriter: "a problem-solver 🎉 "},
+  { typewriter: "a nerd 🤓 "},
+  { typewriter: "a photographer 📸 "},
 ];
