@@ -34,13 +34,13 @@
   text-decoration: none;
   padding: 7px;
   border-radius: 50%;
-  border: 3px solid #badbff;
+  border: 1px solid #badbff;
   font-stretch: extra-condensed;
   transition: all 0.2s ease-in-out;
   z-index: 5;
 }
 .navbar-logo:hover {
-  border: 3px solid white; 
+  border: 1px solid white; 
   color:white;
 }
 .navbar-menu {
