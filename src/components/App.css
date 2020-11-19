@@ -3,70 +3,195 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 html {
-    background-color: rgba(24, 136, 255, 0.8);
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: rgba(24, 136, 255, 0.8);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Actual Styling */
-body {
-    font-family: 'Roboto Condensed', sans-serif;
+
+:root {
+  --font-text-main: "Playfair Display", serif;
+  --font-text-alt: "Roboto Slab", serif;
+  --font-text-mono: "Cutive Mono", monospace;
+  --font-size-h1: 3rem;
+  --font-size-h2: calc(3rem * 0.9);
+  --font-size-h3: calc(3rem * 0.8);
+  --font-size-h4: calc(3rem * 0.7);
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto Slab', serif;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-text-alt);
 }
 h1 {
-    font-size: 3rem;
+  font-size: var(--font-size-h1);
+}
+h2 {
+  font-size: var(--font-size-h2);
+}
+h3 {
+  font-size: var(--font-size-h3);
+}
+h4 {
+  font-size: var(--font-size-h4);
+}
+div, span, p {
+  font-family: var(--font-text-main);
+}
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+section {
+  margin: 15px 0;
 }
 .app {
-	height: 100vh;
-	width: 100vw;
-	overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: #2486ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2373faff' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%230040ff' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%2300deff' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%231636e6' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%2300beff' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%231e2dcd' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%230099ff' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%232024b5' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23006bff' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%231f1b9e' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23330fff' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%231c1388' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: center;
+  z-index: -1;
 }
