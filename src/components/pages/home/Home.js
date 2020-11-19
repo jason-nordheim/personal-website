@@ -11,7 +11,10 @@ export const Home = () => {
   return (
     <div className="home">
       <section>
-        <h1>Welcome</h1>
+        <h1>Hello there!</h1>
+        <p>
+          Please allow me to introduce myself... 
+        </p>
       </section>
       <div className="cta-wrapper">
         <div className="cta no-select">
