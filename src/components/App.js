@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import Home from "./pages/home/Home";
 import About from "./pages/about/About";
@@ -13,12 +13,14 @@ const App = () => {
   return (
     <div className="app">
       <NavBar /> 
-      <Switch location={location}>
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-        <Route path="/projects" component={Projects} />
-        <Route path="/" component={Home} />
-      </Switch>
+      <div className="page">
+        <Switch location={location}>
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/projects" component={Projects} />
+          <Route path="/" component={Home} />
+        </Switch>
+      </div>
     </div>
   );
 };
