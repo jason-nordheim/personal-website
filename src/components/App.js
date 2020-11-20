@@ -12,7 +12,7 @@ import Contact from "./pages/contact/Contact";
 
 // css 
 import './MeyersReset.css'
-import './App.css'
+import './App.scss'
 
 const App = () => {
   let location = useLocation();
