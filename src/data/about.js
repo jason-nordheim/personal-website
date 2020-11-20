@@ -15,11 +15,3 @@ export const contact = {
   bio: "",
 };
 
-export const intros = [
-  { typewriter: "a software engineer 👨‍💻 " },
-  { typewriter: "a developer 💻 "},
-  { typewriter: "an innovator 💥 "},
-  { typewriter: "a problem-solver 🎉 "},
-  { typewriter: "a nerd 🤓 "},
-  { typewriter: "a photographer 📸 "},
-];
