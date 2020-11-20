@@ -1,10 +1,10 @@
 export const intros = [
-  { typewriter: "a software engineer 👨‍💻 ", short: "software engineer" },
-  { typewriter: "a developer 💻 ", short: "developer" },
-  { typewriter: "an innovator 💥 ", short: "innovator" },
-  { typewriter: "a problem-solver 🎉 ", short: "problem-solver" },
-  { typewriter: "a nerd 🤓 ", short: "nerd" },
-  { typewriter: "a photographer 📸 ", short: "photography" },
+  { typewriter: "a software engineer 👨‍💻", short: "software engineer" },
+  { typewriter: "a developer 💻", short: "developer" },
+  { typewriter: "an innovator 💥", short: "innovator" },
+  { typewriter: "a problem-solver 🎉", short: "problem-solver" },
+  { typewriter: "a nerd 🤓", short: "nerd" },
+  { typewriter: "a photographer 📸", short: "photography" },
 ];
 
 export const categories = {
