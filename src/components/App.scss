@@ -238,7 +238,7 @@
         text-decoration: none;
       }
       .navbar-logo:hover {
-        color: var(--terminal-color-primary);
+        color: var(--hover-color);
       }
     }
   }
@@ -383,7 +383,15 @@
       }
       .navbar-left {
         .navbar-logo {
+          display: flex;
+          align-content: center;
           font-size: 2.5rem;
+          padding: 20px 20px 22px 20px;
+          border: 1px solid rgba(56, 50, 50, 0.803);
+          border-radius: 50%;
+        }
+        .navbar-logo:hover {
+          border: 1px solid var(--hover-color)
         }
       }
     }
