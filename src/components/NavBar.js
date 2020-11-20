@@ -19,7 +19,7 @@ export const NavBar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <Link to="/" className="navbar-logo">
+        <Link to="/" className="navbar-logo no-select">
           JN
         </Link>
       </div>
