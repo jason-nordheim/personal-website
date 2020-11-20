@@ -15,9 +15,3 @@ export const contact = {
   bio: "",
 };
 
-export const intros = [
-  "software engineer",
-  "self-starter",
-  "developer",
-  "techie",
-];

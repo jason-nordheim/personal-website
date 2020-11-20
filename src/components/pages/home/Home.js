@@ -1,20 +1,16 @@
 import React from "react";
-import Typewriter from 'typewriter-effect'
-import { typewriterSpeed } from "../../../data/app"
 
-import '../pageStyles.css'
+import { Terminal } from "./Terminal";
+import { ActionSection } from "./ActionSection";
 
 export const Home = () => {
-    const descriptors = ["Creator", "Software Engineer", "Web Developer", "Coder", "Problem-solver", "Geek"]
   return (
-    <div className="page home">
-      <Typewriter className="cta" options={{
-            strings: descriptors, 
-            delay: typewriterSpeed, 
-            deleteSpeed: typewriterSpeed, 
-            autoStart: true, 
-            loop: true, 
-        }} />
+    <div className="home">
+      <section className="flex-center">
+        <h1>Hello and Welcome!</h1>
+      </section>
+      <Terminal />
+      <ActionSection />
     </div>
   );
 };
