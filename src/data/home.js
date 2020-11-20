@@ -37,7 +37,7 @@ const routes = {
 
 
 export const getActionRoute = (category) => {
-
+  return routes[category]
 }
 
 export const actions = [
