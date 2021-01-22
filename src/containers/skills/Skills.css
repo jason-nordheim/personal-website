@@ -9,6 +9,9 @@
   font-size: 12px;
 }
 
+.software-skills-main-div {
+  margin-top: 20px;
+}
 .skills-main-div > * {
   flex: 1;
   margin-bottom: 30px;
