@@ -11,7 +11,12 @@ const illustration = {
 const greeting = {
   username: "Jason Nordheim",
   title: "Hi, I'm Jason",
-  subTitle: emoji("[ {Problem solver,🔨},{Engineer, 👷}, { Runner, 🏃‍♂️}]"),
+  subTitle: [
+    emoji('{ "Problem Solver" : 👨‍🔧 }'),
+    emoji('{ "Engineer" : 👷 }'),
+    emoji('{ "Developer" : 👨‍💻 }'),
+    emoji('{ "Always Learning" : 📚 }'),
+  ],
   // resumeLink:
   //   'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
@@ -379,9 +384,9 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Let's talk ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Interested in discussing a project? Just want to say hi? I'd love to hear from you.",
   number: "315-254-7866",
   emailAddress: "jason.nordheim@gmail.com",
 };
