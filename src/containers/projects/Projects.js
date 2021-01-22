@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Projects.css";
-import { bigProjects } from "../../portfolio";
+import { projectSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -10,14 +10,14 @@ export default function Projects() {
     win.focus();
   }
   const { isDark } = useContext(StyleContext);
-  if (!bigProjects.display) {
+  if (!projectSection.display) {
     return null;
   }
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{bigProjects.title}</h1>
+          <h1 className="skills-heading">{projectSection.title}</h1>
           <p
             className={
               isDark
@@ -25,11 +25,11 @@ export default function Projects() {
                 : "subTitle project-subtitle"
             }
           >
-            {bigProjects.subtitle}
+            {projectSection.subtitle}
           </p>
           <div className="startup-projects-main">
             <div className="startup-project-text">
-              {bigProjects.projects.map((project, i) => {
+              {projectSection.projects.map((project, i) => {
                 return (
                   <div
                     key={i}

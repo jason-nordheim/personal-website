@@ -183,7 +183,7 @@ const openSource = {
 
 // Some big projects you have worked on
 
-const projects = {
+const projectSection = {
   title: 'Projects',
   subtitle: 'See what I\'ve built 👷',
   projects: [
@@ -345,7 +345,7 @@ export {
   techStack,
   workExperiences,
   openSource,
-  projects as bigProjects,
+  projectSection,
   achievementSection,
   blogSection,
   talkSection,
