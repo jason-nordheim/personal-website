@@ -17,7 +17,7 @@ export default function GithubProjects() {
   const { isDark } = useContext(StyleContext);
   useEffect(() => {
     getRepoData();
-  }, []);
+  }, [getRepoData]);
 
   function getRepoData() {
     const client = new ApolloClient({
@@ -78,7 +78,10 @@ export default function GithubProjects() {
   function setrepoFunction(array) {
     setrepo(array);
   }
-  if (!(typeof repo === "string" || repo instanceof String) && openSource.display) {
+  if (
+    !(typeof repo === "string" || repo instanceof String) &&
+    openSource.display
+  ) {
     return (
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
