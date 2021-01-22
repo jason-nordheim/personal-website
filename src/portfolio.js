@@ -32,7 +32,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: 'What I do',
+  title: 'Let me introduce myself... ',
   subTitle: 'A driven Full Stack Software Developer with a background in System Administration, Automation and Data-Analysis.',
   skills: [
     emoji(
