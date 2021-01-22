@@ -40,11 +40,11 @@ export default function Greeting() {
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
-                <Button
+                {/* <Button
                   text="See my resume"
                   newTab={true}
                   href={greeting.resumeLink}
-                />
+                /> */}
               </div>
             </div>
           </div>
@@ -52,11 +52,11 @@ export default function Greeting() {
             {illustration.animated ? (
               <DisplayLottie animationData={landingPerson} />
             ) : (
-              <img
-                alt="man sitting on table"
-                src={require('../../assets/images/manOnTable.svg')}
-              ></img>
-            )}
+                <img
+                  alt="man sitting on table"
+                  src={require('../../assets/images/manOnTable.svg')}
+                ></img>
+              )}
           </div>
         </div>
       </div>
