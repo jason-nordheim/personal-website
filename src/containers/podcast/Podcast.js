@@ -25,12 +25,11 @@ export default function Podcast() {
           </p>
         </div>
         <div className="podcast-main-div">
-          {podcastSection.podcast.map((podcastLink,i) => {
+          {podcastSection.podcast.map((podcastLink, i) => {
             return (
-              <div
-                key={i}
-              >
+              <div key={i}>
                 <iframe
+                  title={i}
                   className="podcast"
                   src={podcastLink}
                   frameBorder="0"
