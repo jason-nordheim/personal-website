@@ -26,7 +26,15 @@
 .subTitle {
   color: #868e96;
 }
-
+.greeting-text-p {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 5px 0;
+}
+.greeting-text-p::after {
+ margin-bottom: 30px;
+}
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {
