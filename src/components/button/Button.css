@@ -1,12 +1,11 @@
 .main-button {
-  background-color: #55198b;
-  border: solid 1px #55198b;
+  background-color: #2e198b;
+  border: solid 1px #2e198b;
   color: white;
   font-weight: 700;
   width: max-content;
   padding: 13px 22px;
   margin-right: 50px;
-  text-transform: uppercase;
   border-radius: 6px;
   text-align: center;
   text-decoration: none;
@@ -18,7 +17,7 @@
 }
 .main-button:hover {
   background-color: #ffffff;
-  color: #55198b;
+  color: #2e198b;
   transition: all .3s ease 0s;
   transform: translateY(-3px);
 }
