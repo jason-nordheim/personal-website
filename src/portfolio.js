@@ -40,12 +40,12 @@ const skillsSection = {
   subTitle:
     "A driven Full Stack Software Developer with a background in System Administration, Automation and Data-Analysis.",
   skills: [
+    emoji("✨ Always learning new skills and checking out new technologies"),
     emoji(
-      "→ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "✨ Passionate about using data to increase efficiencies and drive innovation"
     ),
-    emoji("→ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "→ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "✨ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
   ],
 
@@ -129,20 +129,20 @@ const educationInfo = {
 
 const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
-  experience: [
-    {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%", //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%",
-    },
-    {
-      Stack: "Programming",
-      progressPercentage: "60%",
-    },
-  ],
+  // experience: [
+  //   {
+  //     Stack: "Frontend/Design", //Insert stack or technology you have experience in
+  //     progressPercentage: "90%", //Insert relative proficiency in percentage
+  //   },
+  //   {
+  //     Stack: "Backend",
+  //     progressPercentage: "70%",
+  //   },
+  //   {
+  //     Stack: "Programming",
+  //     progressPercentage: "60%",
+  //   },
+  // ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
