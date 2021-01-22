@@ -25,6 +25,7 @@ const socialMediaLinks = {
   github: 'https://github.com/jason-nordheim',
   linkedin: 'https://www.linkedin.com/in/jasonnordheim/',
   gmail: 'jason.nordheim@gmail.com',
+  devTo: 'https://dev.to/jasonnordheim',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
