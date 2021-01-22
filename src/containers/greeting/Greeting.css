@@ -109,3 +109,20 @@
     height: 256px;
   }
 }
+@media (max-width: 400px) {
+  .greeting-text {
+    display: flex;
+    place-content: center;
+    font-size: 27px;
+    width: 105%;
+  }
+
+  p.greeting-text-p {
+    display: flex;
+    left: 0;
+    width: 105%;
+    place-content: center;
+    font-size: 11px;
+    text-align: center;
+  }
+}

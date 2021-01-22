@@ -86,5 +86,23 @@
 @media (max-width: 768px) {
   .social-media-div {
     text-align: center;
+    place-content: center; 
+    width: 105%;
+  }
+  
+  .icon-button {
+    margin-bottom: 10px;
+  }
+  
+  .icon-button i {
+    --size-factor: 1; 
+    --outside-size: calc(var(--size-factor) * 2.6rem); 
+    --inside-size: calc(var(--size-factor) * 1.3rem); 
+    border-radius: var(--outside-size);
+    font-size: var(--inside-size);
+    height: var(--outside-size);
+    line-height: var(--outside-size);
+    width: var(--outside-size);
+
   }
 }
