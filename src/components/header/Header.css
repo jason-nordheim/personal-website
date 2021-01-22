@@ -66,6 +66,9 @@
   max-height: 0;
   transition: max-height 0.2s ease-out;
 }
+#root > div > div > div.headroom-wrapper > div > header > ul > li > a{
+  border-radius: 10px;
+}
 
 /* menu icon */
 
