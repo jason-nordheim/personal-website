@@ -1,43 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6898925fe46e258802d52175740ca634",
+    "revision": "8228df67556a40f847eedcb86d101862",
     "url": "/index.html"
   },
   {
-    "revision": "438ea7273a13f383a521",
+    "revision": "06d88c4c5e871458c64f",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "df24150cd4ba2e537d72",
+    "revision": "5b06fb120286b68060ab",
     "url": "/static/css/4.19dfc3d0.chunk.css"
   },
   {
-    "revision": "d71dfd1e18f17ab33915",
-    "url": "/static/css/main.c2536b5c.chunk.css"
+    "revision": "4ccbf7169b31d62e4e40",
+    "url": "/static/css/main.5e402d6b.chunk.css"
   },
   {
-    "revision": "44525b4190587a62204d",
-    "url": "/static/js/2.f0f472ee.chunk.js"
+    "revision": "a17bbc391002d09b64e1",
+    "url": "/static/js/2.43b68b31.chunk.js"
   },
   {
     "revision": "0a6d64cd3b49be6a14afdf21fa7c6d43",
-    "url": "/static/js/2.f0f472ee.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.43b68b31.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "438ea7273a13f383a521",
-    "url": "/static/js/3.7d12965d.chunk.js"
+    "revision": "06d88c4c5e871458c64f",
+    "url": "/static/js/3.596b4e0a.chunk.js"
   },
   {
-    "revision": "df24150cd4ba2e537d72",
-    "url": "/static/js/4.5fb7db23.chunk.js"
+    "revision": "5b06fb120286b68060ab",
+    "url": "/static/js/4.50f33c09.chunk.js"
   },
   {
-    "revision": "d71dfd1e18f17ab33915",
-    "url": "/static/js/main.9376699b.chunk.js"
+    "revision": "4ccbf7169b31d62e4e40",
+    "url": "/static/js/main.a23f9131.chunk.js"
   },
   {
-    "revision": "6ae50f027742bc0688af",
-    "url": "/static/js/runtime-main.304934ae.js"
+    "revision": "a82d69fc36538abed9be",
+    "url": "/static/js/runtime-main.a405f3c7.js"
   },
   {
     "revision": "8a1e53a9f2a7fb5adbed554e1996c5f5",
@@ -64,12 +64,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Snake.6b12f28b.jpg"
   },
   {
-    "revision": "51cf7192327488da3d2a171280680c16",
-    "url": "/static/media/contactMailDark.51cf7192.svg"
+    "revision": "a13a6139cf7efe2a6091e58d3368f11e",
+    "url": "/static/media/UdemyLogo.a13a6139.png"
   },
   {
-    "revision": "59389695208d7454c6607bed51ed4316",
-    "url": "/static/media/developerActivity.59389695.svg"
+    "revision": "51cf7192327488da3d2a171280680c16",
+    "url": "/static/media/contactMailDark.51cf7192.svg"
   },
   {
     "revision": "8634786881606f9e417694c09a8fc92f",
@@ -78,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
     "url": "/static/media/manOnTable.52be3144.svg"
+  },
+  {
+    "revision": "01c3d58bbbe02cbf27cf5f5a08544785",
+    "url": "/static/media/pluralsight.01c3d58b.jpg"
+  },
+  {
+    "revision": "c1a95f7335cbfb730b937e19e8830a53",
+    "url": "/static/media/programmer.c1a95f73.svg"
   },
   {
     "revision": "3440939881da8339d1597e8d77cdf850",
