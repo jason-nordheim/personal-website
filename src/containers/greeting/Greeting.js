@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { Fade } from "react-reveal";
+import { Fade, Slide } from "react-reveal";
 import emoji from "react-easy-emoji";
 import "./Greeting.css";
 import landingPerson from "../../assets/lottie/landingPerson";
@@ -28,15 +28,17 @@ export default function Greeting() {
                 {greeting.title}{" "}
                 <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
-              <p
-                className={
-                  isDark
-                    ? "dark-mode greeting-text-p"
-                    : "greeting-text-p subTitle"
-                }
-              >
-                {greeting.subTitle}
-              </p>
+              <Slide left duration={2000}>
+                {greeting.subTitle.map((p, i) => (
+                  <div key={i}>
+                    <p className={i !== 0 ? "indent" : null}>
+                      {i === 0 ? `[  ` : ``}
+                      {p}
+                      {i !== greeting.subTitle.length - 1 ? " ," : " ];"}
+                    </p>
+                  </div>
+                ))}
+              </Slide>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
