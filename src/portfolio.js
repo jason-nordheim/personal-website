@@ -350,32 +350,31 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/",
-    },
-  ],
-  display: false, // Set false to hide this section, defaults to true
+  // title: "TALKS",
+  // subtitle: emoji(
+  //   "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  // ),
+  // talks: [
+  //   {
+  //     title: "Build Actions For Google Assistant",
+  //     subtitle: "Codelab at GDG DevFest Karachi 2019",
+  //     slides_url: "https://bit.ly/saadpasta-slides",
+  //     event_url: "https://www.facebook.com/events/2339906106275053/",
+  //   },
+  // ],
+  // display: false, // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
 
 const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  // title: emoji("Podcast 🎙️"),
+  // subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
-  ],
+  // // Please Provide with Your Podcast embeded Link
+  // podcast: [
+  //   "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo",
+  // ],
   display: false, // Set false to hide this section, defaults to true
 };
 
