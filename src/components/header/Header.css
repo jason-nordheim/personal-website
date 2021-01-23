@@ -43,10 +43,11 @@
 }
 
 .header .logo {
+  font-family: "Agustina Regular";
   display: block;
   flex: none;
   float: left;
-  font-size: 1.em;
+  font-size: 1em;
   text-decoration: none;
   margin-top: 10px;
   line-height: normal;
@@ -66,7 +67,7 @@
   max-height: 0;
   transition: max-height 0.2s ease-out;
 }
-#root > div > div > div.headroom-wrapper > div > header > ul > li > a{
+#root > div > div > div.headroom-wrapper > div > header > ul > li > a {
   border-radius: 10px;
 }
 
@@ -164,7 +165,7 @@
   }
   .header .menu-icon {
     display: none;
-  } 
+  }
   .header .logo-name {
     font-size: 22px;
     padding: 0 10px;
@@ -179,7 +180,6 @@
     margin-top: 15px;
     line-height: normal;
   }
- 
 }
 
 @media (max-width: 400px) {
