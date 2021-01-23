@@ -339,14 +339,105 @@ const blogSection = {
 
   blogs: [
     {
-      url: "",
-      title: "title",
-      description: "description",
+      url: "https://dev.to/jasonnordheim/let-s-get-sassy-4onp",
+      title: emoji("Let's get Sassy 💅"),
+      description:
+        "Sure, you can style your web applications with just CSS, but Sass or syntactically awesome stylesheets is a preprocessor for CSS that fixes many of the pain points most developers have with CSS.",
+      published: "Dec 7, 2020",
+      edited: "Dec 7, 2020",
     },
     {
-      url: "",
-      title: "title",
-      description: "description",
+      url: "https://dev.to/jasonnordheim/demystifying-big-1djf",
+      title: "🧐 Demystifying Big 🅾️",
+      description:
+        "Big O is fundamental in the world of computer science, yet many developers and engineers often struggle to understand it. Let me break down the basics for you so you can more confidently and accurately discus and compare code",
+      published: "Nov 29, 2020",
+      edited: "Nov 30, 2020",
+    },
+    {
+      url:
+        "https://dev.to/jasonnordheim/what-are-microservices-and-why-should-you-care-21na",
+      title: "What are microservices and why should you care?",
+      description:
+        "One common trend in web development is a transition to Microservices. Let me get you acquainted with Microservice architecture and compare it to the way we traditionally built web applications",
+      published: "Nov 22, 2020",
+      edited: "Nov 23, 2020",
+    },
+    {
+      url: "https://dev.to/jasonnordheim/graphql-vs-rest-4mkl",
+      title: "GraphQL vs REST",
+      description:
+        "Traditional APIs have been built using REST or Representational state transfer, but a new technology called GraphQL is here. Should you start using it?",
+      published: "Nov 15, 2020",
+      edited: "",
+    },
+    {
+      url: "https://dev.to/jasonnordheim/debounce-performance-and-react-4de1",
+      title: "Debounce, Performance and React",
+      description:
+        "Learn the debounce pattern, understand how using the debounce pattern can aid in performance, and see how to implement debounce in the context of a React application",
+      published: "Nov 5, 2020",
+      edited: "",
+    },
+    {
+      url:
+        "https://dev.to/jasonnordheim/how-javascript-came-to-dominate-web-development-3nom",
+      title: "How JavaScript came to dominate web development",
+      description:
+        "JavaScript is inherently connected to HTML and the web. Its history has shaped its syntax and the way it operates under the hood. Come along with me in exploring JavaScripts rich history",
+      published: "Oct 26, 2020",
+      edited: "",
+    },
+    {
+      url: "https://dev.to/jasonnordheim/lets-talk-typescript-18ae",
+      title: "Let's talk TypeScript",
+      description:
+        "TypeScript is rapidly increasing in popularity. Let's dive in and understand what it is, why it exists, and the problems TypeScript hopes to solve.",
+      published: "Oct 21, 2020",
+      edited: "",
+    },
+    {
+      url: "https://dev.to/jasonnordheim/getting-started-with-vue-js-3nl2",
+      title: "Getting Started with Vue.js",
+      description:
+        "There are a ton of options when it comes to front-end frameworks. Let's take a quick look at Vue.js and see how to implement the basics.",
+      published: "Aug 21, 2020",
+      edited: "",
+    },
+    {
+      url:
+        "https://dev.to/jasonnordheim/an-intro-into-react-hooks-with-usestate-dnf",
+      title: "An Intro into React Hooks with `useState`",
+      description:
+        "As of React version 16.8, React now supports functional components and hooks. Arguably one of the most important hooks is one called `useState`. Lets see how to implement `useState` in a functional component and compare it to the traditional `state` implemented in older class-based components.",
+      published: "Jul 15, 2020",
+      edited: "",
+    },
+    {
+      url: "https://dev.to/jasonnordheim/the-javascript-stack-explained-2pp2",
+      title: "The JavaScript Stack Explained",
+      description:
+        "Understanding what is happening 'behind the scenes' or 'under the hood' can be instrumental in tracking down elusive bugs. Let's take a look at how JavaScript executes statements as part of the JavaScript stack.",
+      published: "May 21, 2020",
+      edited: "May 21, 2020",
+    },
+    {
+      url:
+        "https://dev.to/jasonnordheim/an-introduction-to-javascript-classes-methods-1pdp",
+      title: "An Introduction to JavaScript Classes & Methods",
+      description:
+        "With ES2015 and the introduction of classes in JavaScript, developers now have the option to write JavaScript code using the object-oriented paradigm instead of functional. Here's the basics you need to know to get started.",
+      published: "May 21, 2020",
+      edited: "May 21, 2020",
+    },
+    {
+      url:
+        "https://dev.to/jasonnordheim/key-concepts-to-get-started-with-rails-apis-22df",
+      title: "Key Concepts to get Started with Rails APIs",
+      description:
+        "Rails is a powerful framework for building full-stack web applications quickly. Here are the fundamental concepts you need to know to successfully implement a Rails application",
+      published: "Apr 21, 2020",
+      edited: "",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
