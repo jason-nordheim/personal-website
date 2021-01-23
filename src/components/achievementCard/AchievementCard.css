@@ -13,7 +13,8 @@
 .card-subtitle {
   color: #666666;
   text-align: left;
-  font-size: 17px;
+  font-size: 15px;
+  font-stretch: condensed;
   line-height: 1.5rem;
 }
 .certificate-card {
