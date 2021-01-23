@@ -3,12 +3,12 @@
 }
 
 .blog-container {
-  border-radius: 10px;
+  border-radius: 15px;
   color: #586069;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.692);
   box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  height: 200px;
+  height: 250px;
 }
 
 .blog-title {
@@ -27,7 +27,7 @@
 }
 
 .small {
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.5rem;
   color: #666666;
@@ -44,13 +44,13 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  width: 32px;
-  height: 32px;
+  width: 50px;
+  height: 50px;
   overflow: hidden;
   top: 0;
   right: 0;
   background-color: #55198b;
-  border-radius: 0 4px 0 32px;
+  border-radius: 0 6px 0 32px;
 }
 
 .go-arrow {
@@ -58,13 +58,14 @@
   margin-right: -4px;
   color: white;
   font-family: courier, sans;
+  font-size: 20px;
 }
 
 .blog-card {
   display: block;
   position: relative;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 6px;
   text-decoration: none;
   z-index: 0;
   overflow: hidden;
