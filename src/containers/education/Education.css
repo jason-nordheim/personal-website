@@ -40,6 +40,11 @@
 }
 
 @media (max-width: 768px) {
+  .education-section {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
   .education-card-container {
     padding-top: 0px;
   }

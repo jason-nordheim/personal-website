@@ -126,8 +126,18 @@
     margin-bottom: 1rem;
     margin-right: 0;
   }
+  .education-text-desc {
+    margin: 20px 0;
+    text-align: left;
+  }
   .education-text-bullets > ul {
-    max-width: 80%;
-    margin: auto;
+    margin: 20px 0;
+    font-stretch: condensed;
+    max-width: 90%;
+    line-height: 1.3rem;
+    text-align: left;
+  }  
+  .education-text-bullets > ul > li {
+    margin-bottom: 5px;
   }
 }
