@@ -55,4 +55,7 @@
   .education-text-subtitle {
     font-size: 16px;
   }
+  .education-text-details {
+    margin: 0 10px;
+  }
 }

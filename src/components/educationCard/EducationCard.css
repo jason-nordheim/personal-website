@@ -43,7 +43,7 @@
   margin-right: 2rem;
   width: 6rem;
   height: 6rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.5rem 1rem rgba(37, 37, 37, 0.37);
   border-radius: 50%;
 }
 
@@ -110,6 +110,9 @@
 }
 
 @media (max-width: 768px) {
+  .education-text-school {
+    font-weight: 700;
+  }
   .education-card {
     text-align: center;
   }
@@ -121,8 +124,8 @@
   }
   .education-roundedimg {
     margin-top: 10px;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     margin-bottom: 1rem;
     margin-right: 0;
   }
@@ -138,6 +141,7 @@
     text-align: left;
   }  
   .education-text-bullets > ul > li {
+    font-size: 14px;
     margin-bottom: 5px;
   }
 }

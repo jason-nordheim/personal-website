@@ -13,7 +13,7 @@
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1rem 1rem;
 }
-.subTitle {
+.main .subTitle {
   color: #868e96;
 }
 
