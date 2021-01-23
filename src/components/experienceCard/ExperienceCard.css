@@ -118,13 +118,13 @@
 .experience-text-desc {
     font-size: 14px;
     text-align: left;
-
 }
 .experience-text-details{
+    font-size: 16px;
     opacity: 0.9;
     max-width: 100%;
     padding: 0 20px;
-    line-height: 1rem;
+    line-height: 1.1rem;
     margin-top: 2rem;
 }
 .experience-text-details > ul {
@@ -132,7 +132,7 @@
 }
 /* #workExperience > div > div > div:nth-child(1) > div.experience-text-details > ul > li:nth-child(1) */
 div.experience-text-details > ul > li.subTitle {
-    font-size: 12px;
+    font-size: 13px;
 }
 /* Media Query */
 
