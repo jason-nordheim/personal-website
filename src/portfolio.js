@@ -100,6 +100,7 @@ const educationInfo = {
       logo: require("./assets/images/filatiron.jpg"),
       subHeader: "Immersive Software Engineering Bootcamp Program",
       duration: "March 2020 - September 2020",
+      url: "https://flatironschool.com/",
       desc: "15 week immersive full-stack software engineering bootcamp",
       descBullets: [
         "VCS and collaborative software development using git & Github",
@@ -113,6 +114,7 @@ const educationInfo = {
       logo: require("./assets/images/RIT.png"),
       subHeader: "Bachelor of Science in Management Information Systems (MIS)",
       duration: "September 2013 - December 2017",
+      url: "https://www.rit.edu/",
       desc:
         "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
@@ -155,6 +157,7 @@ const workExperiences = {
       role: "Desktop Engineer",
       company: "Paychex",
       companylogo: require("./assets/images/Paychex.jpg"),
+      url: "https://www.paychex.com/",
       date: "June 2018 – March 2020",
       desc:
         "Built and maintained enterprise systems supporting end-user computing, including provisioning, configuration, management, deployment, maintenance, and security",
@@ -170,6 +173,7 @@ const workExperiences = {
       role: "Data Analyst & Developer",
       company: "Rochester Precision Optics",
       companylogo: require("./assets/images/RPO.jpg"),
+      url: "https://www.rit.edu/",
       date: "June 2018 – March 2020",
       desc:
         "At RPO, the IT department consisted of all of 3 people, so while my primary function was data analysis, I also assisted in System Administration and technical support",
@@ -183,15 +187,15 @@ const workExperiences = {
       role: "Data Analyst & Developer",
       company: "Rochester Institute of Technology",
       companylogo: require("./assets/images/RIT.png"),
+      url: "http://www.rpoptics.com/",
       date: "May 2016 – August 2016",
       desc:
         "Built and maintained enterprise systems supporting end-user computing, including provisioning, configuration, management, deployment, maintenance, and security",
       descBullets: [
-        "Automation and scripting of using Python and C# (.NET Framework) to script the setup, configuration and maintenance of enterprise systems and software across more than 20,000 systems (Windows & Mac) including more than 2,000 virtualized systems",
-        "Lead engineer and project manager for implementation of ZPA (Zscaler Private Access)",
-        "Technical documentation via Confluence Wiki Pages",
-        "Packaging and deployment of enterprise applications leveraging Powershell scripting, SCCM, Microsoft Intune (MSIX) and virtualization technologies (Citrix & VMware)",
-        "Discovery, project management, and Implementation of end-user computing needs leveraging agile methodologies including sprints, stories, kanban boards, and scrums.",
+        "Leverage relational database management systems to query, join, and sanitize data from Oracle PL/SQL databases",
+        "Analyze and reduce large data-sets to provide accurate, clear and concise reports to support various university efforts including fundraising, networking and marketing activities",
+        "Create dashboards charts, and other data-visualizations with Tableau, Excel, and PowerBI",
+        "Update and maintain database documentation using unified modeling language (UML)",
       ],
     },
   ],
