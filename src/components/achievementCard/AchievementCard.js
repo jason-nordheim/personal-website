@@ -1,12 +1,8 @@
 import React from "react";
+import { openInNewWindow } from "../../util/windowUtilities";
 import "./AchievementCard.css";
 
 export default function AchievementCard({ cardInfo, isDark }) {
-  function openUrlInNewTab(url) {
-    var win = window.open(url, "_blank");
-    win.focus();
-  }
-
   return (
     <div className={isDark ? "dark-mode certificate-card" : "certificate-card"}>
       <div className="certificate-image-div">
@@ -25,8 +21,10 @@ export default function AchievementCard({ cardInfo, isDark }) {
           return (
             <span
               key={i}
-              className={isDark ? "dark-mode certificate-tag" : "certificate-tag"}
-              onClick={() => openUrlInNewTab(v.url)}
+              className={
+                isDark ? "dark-mode certificate-tag" : "certificate-tag"
+              }
+              onClick={() => openInNewWindow(v.url)}
             >
               {v.name}
             </span>
