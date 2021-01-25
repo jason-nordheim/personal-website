@@ -4,13 +4,14 @@ import BlogCard from "../../components/blogCard/BlogCard";
 import { blogSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { fadeDuration } from "../../config";
 export default function Blogs() {
   const { isDark } = useContext(StyleContext);
   if (!blogSection.display) {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={fadeDuration} distance="20px">
       <div className="main" id="blogs">
         <div className="blog-header">
           <h1 className="blog-header-text">{blogSection.title}</h1>
@@ -24,7 +25,7 @@ export default function Blogs() {
         </div>
         <div className="blog-main-div">
           <div className="blog-text-div">
-            {blogSection.blogs.map((blog,i) => {
+            {blogSection.blogs.map((blog, i) => {
               return (
                 <BlogCard
                   key={i}

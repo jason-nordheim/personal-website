@@ -1,6 +1,7 @@
 import React, { useState, createRef } from "react";
 import "./ExperienceCard.css";
 import ColorThief from "colorthief";
+import { openInNewWindow } from "../../util/windowUtilities";
 
 export default function ExperienceCard({ cardInfo, isDark }) {
   const [colorArrays, setColorArrays] = useState([]);
@@ -42,6 +43,7 @@ export default function ExperienceCard({ cardInfo, isDark }) {
         </div>
 
         <img
+          onClick={() => openInNewWindow(cardInfo.url)}
           crossOrigin={"anonymous"}
           ref={imgRef}
           className="experience-roundedimg"

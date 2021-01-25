@@ -3,6 +3,7 @@ import "./Podcast.css";
 import { podcastSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { fadeDuration } from "../../config";
 
 export default function Podcast() {
   const { isDark } = useContext(StyleContext);
@@ -10,7 +11,7 @@ export default function Podcast() {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={fadeDuration} distance="20px">
       <div className="main">
         <div className="podcast-header">
           <h1 className="podcast-header-title">{podcastSection.title}</h1>

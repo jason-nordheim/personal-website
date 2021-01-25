@@ -2,6 +2,7 @@ import React, { createRef, useContext } from "react";
 import { Fade, Slide } from "react-reveal";
 import "./EducationCard.css";
 import StyleContext from "../../contexts/StyleContext";
+import { fadeDuration } from "../../config";
 
 export default function EducationCard({ school }) {
   const imgRef = createRef();
@@ -18,10 +19,14 @@ export default function EducationCard({ school }) {
   const { isDark } = useContext(StyleContext);
   return (
     <div>
-      <Fade left duration={1000}>
+      <Fade left duration={fadeDuration}>
         <div className="education-card">
           <div className="education-card-left">
             <img
+              onClick={() => {
+                debugger;
+                window.open(school.url);
+              }}
               crossOrigin={"anonymous"}
               ref={imgRef}
               className="education-roundedimg"

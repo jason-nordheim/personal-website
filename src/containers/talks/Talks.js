@@ -4,14 +4,15 @@ import TalkCard from "../../components/talkCard/TalkCard";
 import { talkSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { fadeDuration } from "../../config";
 
 export default function Talks() {
   const { isDark } = useContext(StyleContext);
   if (!talkSection.display) {
-      return null;
+    return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={fadeDuration} distance="20px">
       <div className="main" id="talks">
         <div className="talk-header">
           <h1 className="talk-header-title">{talkSection.title}</h1>
@@ -24,7 +25,7 @@ export default function Talks() {
           >
             {talkSection.subtitle}
           </p>
-          {talkSection.talks.map((talk,i) => {
+          {talkSection.talks.map((talk, i) => {
             return (
               <TalkCard
                 key={i}

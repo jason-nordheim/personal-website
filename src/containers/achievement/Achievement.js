@@ -4,13 +4,14 @@ import AchievementCard from "../../components/achievementCard/AchievementCard";
 import { achievementSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { fadeDuration } from "../../config";
 export default function Achievement() {
   const { isDark } = useContext(StyleContext);
   if (!achievementSection.display) {
     return null;
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
+    <Fade bottom duration={fadeDuration} distance="20px">
       <div className="main" id="achievements">
         <div className="achievement-main-div">
           <div className="achievement-header">
@@ -34,7 +35,7 @@ export default function Achievement() {
             </p>
           </div>
           <div className="achievement-cards-div">
-            {achievementSection.achievementsCards.map((card,i) => {
+            {achievementSection.achievementsCards.map((card, i) => {
               return (
                 <AchievementCard
                   key={i}
