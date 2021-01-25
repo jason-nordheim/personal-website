@@ -221,12 +221,26 @@ const projectSection = {
       title: "2048",
       image: require("./assets/images/2048_logo.png"),
       link: "https://play-2048-with-me.web.app/",
+      links: [
+        { description: "demo", url: "https://play-2048-with-me.web.app/" },
+        {
+          description: "rpo",
+          url: "https://github.com/jason-nordheim/react-2048",
+        },
+      ],
       desc: "The classic game of combining tiles to get to 2048",
       alt: "React 2048",
     },
     {
       title: "Snake",
       image: require("./assets/images/Snake.jpg"),
+      links: [
+        { description: "demo", url: "https://vanilla-js-snake.web.app/" },
+        {
+          description: "repo",
+          url: "https://github.com/jason-nordheim/pure-js-snake",
+        },
+      ],
       link: "https://vanilla-js-snake.web.app/",
       desc:
         "Checkout the classic arcade game snake, built with CSS Grid and vanilla JavaScript",
