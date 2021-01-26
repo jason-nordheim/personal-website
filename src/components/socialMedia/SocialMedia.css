@@ -85,12 +85,19 @@
 
 /* Media Query */
 @media (max-width: 768px) {
+  .greeting-text {
+    margin-bottom: 70px;
+  }
   .social-media-div {
     text-align: center;
     place-content: center; 
+    margin-top: 70px;
     width: 105%;
   }
-  
+  #greeting .main-button {
+    margin: 50px;
+  }
+
   .icon-button {
     margin-bottom: 10px;
   }
