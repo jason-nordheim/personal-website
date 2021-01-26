@@ -17,7 +17,7 @@
   line-height: 24px;
   font-weight: 700;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 40px;
   margin-bottom: 14px;
   margin-top: 32px;
   overflow: hidden;
@@ -29,7 +29,7 @@
 .small {
   font-size: 15px;
   font-weight: 400;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
   color: #666666;
   padding: 0px 20px;
   overflow: hidden;
