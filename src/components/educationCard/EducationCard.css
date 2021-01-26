@@ -62,18 +62,22 @@
 
 .education-text-duration {
   color: #000000;
-  font-size: 19px;
+  font-size: 15px;
+  opacity: 0.90;
   margin: 0px;
   padding-top: 0.5rem;
 }
 
 .education-text-desc {
-  font-size: 14px;
+  
+  font-size: 15px;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
 .education-text-bullets > ul {
+  font-size: 15px;
+  line-height: 1.2rem;
   margin-top: 0.5rem;
 }
 
@@ -98,9 +102,7 @@
     font-size: 20px;
     height: 23px;
   }
-  .education-text-duration {
-    font-size: 16px;
-  }
+
   .education-roundedimg {
     width: 4rem;
     height: 4rem;
