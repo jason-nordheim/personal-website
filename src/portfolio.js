@@ -106,7 +106,7 @@ const educationInfo = {
         "VCS and collaborative software development using git & Github",
         "Frontend Technologies: HTML/CSS, JavaScript, React, Redux",
         "Backend Technologies: Ruby, Ruby on Rails, Sinatra, ActiveRecord, Bcrypt, SQL",
-        "Emphasis on practice-based-learning",
+        "Emphasis on project-based-learning",
       ],
     },
     {
@@ -116,12 +116,12 @@ const educationInfo = {
       duration: "September 2013 - December 2017",
       url: "https://www.rit.edu/",
       desc:
-        "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+        "MIS program ranked top 10% in the nation. Took more than 30 credit hours in computer science courses.",
       descBullets: [
-        "Double Minors in Digital Business & Web Development",
-        "Dean’s List Student with 3.49/4.00 GPA",
-        "Senior Vice President, Newsletter Chair of Delta Sigma Pi - Epsilon Lambda Chapter",
-        "President of Lowenthal Service Group",
+        "Completed Computer Science Foundational Courses",
+        "Completed Double Minors in Digital Business (15 credit-hours) & Web Development (27 credit-hours) and concentration in Psychology",
+        "Consistent Dean’s List Student with 3.49/4.00 GPA (cumulative)",
+        "Involved with multiple on-campus student run organizations: American Marketing Association (AMA), Business and Technology Professionals (BTP), Delta Sigma Pi (DSP), and No Voice Zone (NVZ)",
       ],
     },
   ],
