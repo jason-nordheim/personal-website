@@ -15,7 +15,7 @@ export default function Projects() {
     <Fade bottom duration={fadeDuration} distance="20px">
       <div className="main" id="projects">
         <div>
-          <h1 className="skills-heading">{projectSection.title}</h1>
+          <h1 className="projects-header">{projectSection.title}</h1>
           <p
             className={
               isDark
