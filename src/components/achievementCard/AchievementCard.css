@@ -5,12 +5,14 @@
 }
 .card-title {
   color: #000000;
+  background-color: inherit !important;
   font-size: 22px;
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
 }
 .card-subtitle {
+  background-color: inherit !important;
   color: #666666;
   text-align: left;
   font-size: 15px;
@@ -18,7 +20,7 @@
   line-height: 1.5rem;
 }
 .certificate-card {
-  background-color: rgb(255, 255, 255);
+  background-color: #868e961e !important; 
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
@@ -44,6 +46,7 @@
 .certificate-card-footer {
   display: flex;
   align-items: center;
+  margin-top: 25px;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -54,7 +57,7 @@
   align-items: center;
   border-radius: 4px;
   display: inline-flex;
-  font-size: 0.75rem;
+  font-size: 14px;
   height: 2em;
   justify-content: center;
   white-space: nowrap;
