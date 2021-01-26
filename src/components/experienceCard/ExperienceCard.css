@@ -153,6 +153,9 @@ div.experience-text-details > ul > li.subTitle {
 }
 
 @media (max-width: 768px) {
+    #experience .experience-cards-div {
+        grid-template-rows:unset
+    }
     .experience-text-role {
         font-size: 22px;
     }
