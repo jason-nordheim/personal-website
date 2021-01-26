@@ -10,7 +10,7 @@ export default function StackProgress() {
   if (techStack.viewSkillBars) {
     return (
       <Fade bottom duration={fadeDuration} distance="20px">
-        <div className="skills-container">
+        <div id="stack" className="skills-container">
           <div className="skills-bar">
             <h1 className="skills-heading">Proficiency</h1>
             {techStack.experience.map((exp, i) => {
