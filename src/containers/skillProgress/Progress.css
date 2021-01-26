@@ -1,4 +1,4 @@
-.meter { 
+#stack .meter { 
     height: 20px;
     position: relative;
     background: rgb(243, 239, 239);
@@ -6,7 +6,7 @@
     -webkit-border-radius: 25px;
     border-radius: 25px;
 }
-.meter > span {
+#stack .meter > span {
     display: block;
     height: 100%;
     border-top-right-radius: 6px;
@@ -17,25 +17,25 @@
     position: relative;
     overflow: hidden;
 }
-.skill{
+#stack .skill{
     line-height: 3.5vw;
 }
-.skill-bars{
+#stack .skill-bars{
     font-size: 28px;
     width: 40%;
 }
-.skills-container {
+#stack .skills-container {
     display: flex;
     width: 90%;
     padding: 20px 10px;
     margin: 0px auto;
     margin-top: 2rem;
 }
-.skills-container > * {
+#stack .skills-container > * {
     flex: 1;
     margin-bottom: 30px;
 }
-.skills-image > img {
+#stack .skills-image > img {
     margin-left: 80px;
     max-width: 90%;
     height: auto;
@@ -44,24 +44,24 @@
 /* Media Query */
 
 @media (max-width: 1456px) {
-    .skills-bar {
+    #stack .skills-bar {
         line-height: 4rem;
     }
-    .skills-image {
+    #stack .skills-image {
         display: none;
         order: 2;
     }
 }
 
 @media (max-width: 768px) {
-    .skills-container {
+    #stack .skills-container {
         flex-direction: column
     }
-    .skills-bar {
+    #stack .skills-bar {
         line-height: 3rem;
         margin: 20px;
     }
-    .skills-image {
+    #stack .skills-image {
         display: none;
         order: 2;
     }
