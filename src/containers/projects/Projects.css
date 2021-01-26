@@ -1,7 +1,6 @@
 .startup-projects-main {
   display: flex;
 }
-
 .startup-projects-main > * {
   flex: 1;
   margin-bottom: 30px;
@@ -64,6 +63,10 @@
 }
 
 @media (max-width: 768px) {
+  h1.projects-header {
+    display: flex;
+    place-content: center;
+  }
   .starup-project-image {
     display: none;
   }
@@ -77,5 +80,23 @@
     padding: 10px 10px;
     border-radius: 20px;
   }
-  
+}
+
+@media (max-width: 550px){
+  .startup-project-text {
+    display: grid;
+    width: 100%;
+  }
+
+  .photo-div{
+    display: flex;
+    width: auto;
+  }
+  .photo-div > img {
+    width: 60%;
+  }
+  .proj-desc {
+    font-size: 14px;
+    padding: 20px 10px;
+  }
 }
