@@ -20,7 +20,7 @@
   line-height: 1.5rem;
 }
 .certificate-card {
-  background-color: #868e961e !important; 
+  background-color: #868e961e !important;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
   padding: 1.5rem;
   border-radius: 10px;
@@ -53,19 +53,21 @@
 .certificate-card-footer span.certificate-tag {
   background: #55198b;
   color: #f5f2f4;
-  vertical-align: middle;
   align-items: center;
   border-radius: 4px;
-  display: inline-flex;
+  display: block;
   font-size: 14px;
   height: 2em;
   justify-content: center;
   white-space: nowrap;
   line-height: 1.5;
   margin: 0 0.5rem 0.5rem 0;
-  padding: 0 0.75em;
+  padding: 0.6em 0.75em 0.2em 0.75em;
   cursor: pointer;
   transition: 0.2s ease-in;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 span.certificate-tag:hover {
   background: #8c43ce;
