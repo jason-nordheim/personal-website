@@ -277,6 +277,40 @@ const achievementSection = {
       ],
     },
     {
+      title: "LinkedIn",
+      subtitle:
+        "LinkedIn Learning is an online educational platform that helps you discover and develop business, technology-related, and creative skills through expert-led course videos. Checkout the courses I've completed below.",
+      image: require("./assets/images/linkedin.png"),
+      footerLink: [
+        {
+          name: "Programming Foundations: Object-Oriented Design",
+          url:
+            "http://www.linkedin.com/learning/programming-foundations-object-oriented-design-3?trk=flagship-lil_details_certification&trk=lil_details_certification",
+        },
+        {
+          name: "Python for Data Science Essential Training Part 1",
+          url:
+            "https://www.linkedin.com/learning/python-for-data-science-essential-training-part-1/data-science-life-hacks",
+        },
+        {
+          name: "SQL Essential Training",
+          url:
+            "https://www.linkedin.com/learning/sql-essential-training-3/understanding-sql",
+        },
+        {
+          name:
+            "Data Science & Analytics Career Paths & Certifications: First Steps",
+          url:
+            "https://www.linkedin.com/learning/data-science-analytics-career-paths-certifications-first-steps-3",
+        },
+        {
+          name: "Programming Foundations: Algorithms",
+          url:
+            "https://www.linkedin.com/learning/programming-foundations-algorithms",
+        },
+      ],
+    },
+    {
       title: "PluralSight Courses",
       subtitle:
         "Pluralsight is a leader in a providing on-demand comprehensive training on the latest technologies with courses authored by seasoned industry exports, assessments, and learning paths. Checkout some of the courses I've completed below.",
@@ -341,6 +375,56 @@ const achievementSection = {
           name: "Spring: The Big Picture",
           url:
             "https://drive.google.com/file/d/1GhFb7C8pymmRPcVPMoTLUBArAAEoqDm6/view?usp=sharing",
+        },
+        {
+          name: "Getting Started with Programming in Java",
+          url:
+            "https://drive.google.com/file/d/1FtluMDjDzeu1AIoYySuMOwqq5I-rBglF/view?usp=sharing",
+        },
+        {
+          name: "PostgreSQL Data Manipulation Playbook",
+          url:
+            "https://drive.google.com/file/d/1M8I64aC8YvGRlgJ2pzUVIM7ClYyJAUYt/view?usp=sharing",
+        },
+        {
+          name: "Domain-Driven Design in Practice",
+          url:
+            "https://drive.google.com/file/d/1LLGwojCcs5Si9jV_EiNl0uXIrJV43ogA/view",
+        },
+        {
+          name: "HTML, CSS, and JavaScript: The Big Picture",
+          url:
+            "https://drive.google.com/file/d/1ojl9ikHaNY-nAc3xqbKtiSFELCsARBzi",
+        },
+        {
+          name: "JavaScript Variables and Types",
+          url:
+            "https://drive.google.com/file/d/1cm4II99IGLVLSnr7K0WKz3FpfIUUxwuJ/view",
+        },
+        {
+          name: "Documenting an ASP.NET Core API with OpenAPI/Swagger",
+          url:
+            "https://drive.google.com/file/d/1ojl9ikHaNY-nAc3xqbKtiSFELCsARBzi/view?usp=sharing",
+        },
+        {
+          name: "Building Application with React and Flux",
+          url:
+            "https://drive.google.com/file/d/1gMKTMDPiKwH5Hd4XE6wv3cEFmsA0_gPq/view?usp=sharing",
+        },
+        {
+          name: "Designing RESTful Web APIs",
+          url:
+            "https://drive.google.com/file/d/1gMKTMDPiKwH5Hd4XE6wv3cEFmsA0_gPq/view?usp=sharing",
+        },
+        {
+          name: "Python for Data Analysts",
+          url:
+            "https://drive.google.com/file/d/1Fvo48YYl8ofDIY5lD-G9A_JhQq68lsnF/view?usp=sharing",
+        },
+        {
+          name: "How Git Works",
+          url:
+            "https://drive.google.com/file/d/1YF6P9MNCWc5Xy0n2ZaSXSAkbSJzPM5iq/view?usp=sharing",
         },
       ],
     },
