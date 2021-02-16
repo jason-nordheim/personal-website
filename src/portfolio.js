@@ -246,6 +246,21 @@ const projectSection = {
         "Checkout the classic arcade game snake, built with CSS Grid and vanilla JavaScript",
       alt: "Pure JavaScript Snake",
     },
+    {
+      title: "Chatter One",
+      image: require("./assets/images/chatter-one.png"),
+      links: [
+        { description: "demo", url: "https://chatter-one.netlify.app/" },
+        {
+          description: "repo",
+          url: "https://github.com/jason-nordheim/chatter-one",
+        },
+      ],
+      link: "https://github.com/jason-nordheim/chatter-one",
+      desc:
+        "Checkout the classic arcade game snake, built with CSS Grid and vanilla JavaScript",
+      alt: "Pure JavaScript Snake",
+    },
   ],
   display: true, // Set false to hide this section, defaults to true
 };
