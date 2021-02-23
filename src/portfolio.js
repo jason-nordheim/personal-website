@@ -258,8 +258,8 @@ const projectSection = {
       ],
       link: "https://github.com/jason-nordheim/chatter-one",
       desc:
-        "Checkout the classic arcade game snake, built with CSS Grid and vanilla JavaScript",
-      alt: "Pure JavaScript Snake",
+        "A simple chat application with a UI similar to Microsoft Teams, built uisng ChatEngine.io",
+      alt: "Chatter One Login",
     },
   ],
   display: true, // Set false to hide this section, defaults to true
